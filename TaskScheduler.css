@@ -236,7 +236,7 @@ height:100%;
 
 div#push
 {
-height: 23px;
+height: 115px;
 }
 
 .FullScreenMode div#leftcol,
@@ -261,7 +261,7 @@ background-image:none;
 .Main
 {
 min-height:100%;
-margin: 0 auto -23px;
+margin: 0 auto -115px;
 }
 
 .FullScreenMode .Main
@@ -320,7 +320,7 @@ top:0;
 .Main .Header .Sub
 {
 clear:both;
-background-color:#399ED3;
+background-color:#71AC1C;
 height:24px;
 font-weight: bold;
 color: #FFFFFF;
@@ -472,7 +472,7 @@ padding: 2px 0 5px 0;
 
 .FullScreenMode .Main .Center .Icons
 {
-bottom: 23px; /*footer height*/
+bottom: 115px; /*footer height*/
 position:absolute;
 visibility:hidden;
 overflow-x:auto;
@@ -485,7 +485,7 @@ visibility:visible;
 
  .Footer
 {
-background: url('');
+background: url('/User_Themes/1/00000000-0000-0000-0000-000000000001/Footer.png');
 text-align: center;
 width:100%;
 clear:both;
@@ -500,7 +500,7 @@ right:0;
 
 .Footer .Spacer
 {
-height: 23px;
+height: 115px;
 }
 
 .Footer .Spacer .Border
@@ -626,7 +626,7 @@ display:none;
 
 .AddWidgetPanel
 {
-    border: 1px solid #399ED3;
+    border: 1px solid #71AC1C;
 right:23px;
 top:1px;
 }
@@ -635,7 +635,7 @@ top:1px;
 {
 left:0;
 top:32px;
-border: 1px solid #399ED3;
+border: 1px solid #71AC1C;
 }
 /*  -------------------  */
 /*  Session Information  */
@@ -1011,19 +1011,19 @@ border-bottom: 0px;
 .HyperLinkCommand
 {
 text-decoration: none;
-color: #666666;
+color: #FFFFFF;
 }
 
 .HyperLink:hover
 {
 text-decoration: underline;
-color: #000000;
+color: #888888;
 }
 
 .HyperLinkCommand:hover
 {
 text-decoration: none;
-color: #000000;
+color: #888888;
 }
 
 /* PageSearchProvider Image Link */
@@ -1266,19 +1266,19 @@ text-align:center;
 table .HeaderPanel
 {
 text-align: center;
-background-color: #399ED3;
+background-color: #71AC1C;
 height:23px;
 }
 
 table .HeaderPanelLeft
 {
-background: url(../../App_Themes/Default/Controls/../../../Interface/Base/ColorChange.ashx?img=/Images/RoundedCornersRad6.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23000000&tocolor=%23399ED3) left top no-repeat;
+background: url(../../App_Themes/Default/Controls/../../../Interface/Base/ColorChange.ashx?img=/Images/RoundedCornersRad6.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23000000&tocolor=%2371AC1C) left top no-repeat;
 width:10px;
 }
 
 table .HeaderPanelRight
 {
-background: url(../../App_Themes/Default/Controls/../../../Interface/Base/ColorChange.ashx?img=/Images/RoundedCornersRad6.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23000000&tocolor=%23399ED3) right top no-repeat;
+background: url(../../App_Themes/Default/Controls/../../../Interface/Base/ColorChange.ashx?img=/Images/RoundedCornersRad6.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23000000&tocolor=%2371AC1C) right top no-repeat;
 width:10px;
 }/*********************************************************************/
 /******************************** TextBox.css ********************************/
@@ -1440,7 +1440,7 @@ padding-bottom: 3px;
 {
 border: 1px solid #616161;
 /*background: #fff url(../../App_Themes/Default/Controls/Rad/BreadCrumb/rmDropDownStripe.png) repeat-y -1px 0;*/
-background: #FFFFFF url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23399ED3) repeat-y -1px 0;
+background: #FFFFFF url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C) repeat-y -1px 0;
 }
 
 .RadMenu_BreadCrumb .rmTopFix,
@@ -1452,7 +1452,7 @@ background: #FFFFFF url(../../App_Themes/Default/Controls/Rad/../../../../Interf
 .RadMenu_BreadCrumb_Context.rmRoundedCorners ul.rmHorizontal .rmFirst
 {
 /*background-image: url(../../App_Themes/Default/Controls/Rad/BreadCrumb/rmDropDownStripe.png);*/
-background: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23399ED3);
+background: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C);
 background-color: #FFFFFF; 
 background-repeat: repeat-y;
 background-position: -3px 0;
@@ -1462,7 +1462,7 @@ background-position: -3px 0;
 * html .rmRoundedCorners_BreadCrumb ul.rmHorizontal .rmFirst
 {
 /*background-image: url(../../App_Themes/Default/Controls/Rad/BreadCrumb/rmDropDownStripe.png);*/
-background: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23399ED3);
+background: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C);
 background-color: #FFFFFF; 
 background-repeat: repeat-y;
 background-position: -3px 0;
@@ -1501,7 +1501,7 @@ background-color: #fff;
 .RadMenu_BreadCrumb .rmRoundedCorners ul.rmGroup,
 .RadMenu_BreadCrumb .rmRoundedCorners .rmMultiColumn
 {
-background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmRoundedLeft.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23399ED3);
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmRoundedLeft.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C);
 /*background-image:  url(../../App_Themes/Default/Controls/Rad/BreadCrumb/rmRoundedLeft.png);*/
 background-color: transparent; 
 background-repeat: no-repeat;
@@ -1512,7 +1512,7 @@ background-repeat: no-repeat;
 * html .rmRoundedCorners_BreadCrumb ul.rmGroup
 {
 /*background-image:  url(../../App_Themes/Default/Controls/Rad/BreadCrumb/rmRoundedLeft.png);*/
-background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmRoundedLeft.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23399ED3);
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmRoundedLeft.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C);
 background-color: transparent; 
 background-repeat: no-repeat;
 }
@@ -3203,7 +3203,7 @@ font: normal 12px/24px "Segoe UI", Arial, sans-serif;
 
 .RadPanelBar_TCAdmin .rpLink
 {
-background: #399ED3 url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/Panelbar/TitleCorner.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF);
+background: #71AC1C url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/Panelbar/TitleCorner.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF);
 }
 
 .RadPanelBar_TCAdmin .rpLink .rpText
@@ -3220,13 +3220,13 @@ font-weight:normal;
 
 .RadPanelBar_TCAdmin .rpFirst .rpLink
 {
-background: #399ED3;
+background: #71AC1C;
 }
 
 
 .RadPanelBar_TCAdmin .rpFirst .rpLink:hover
 {
-background: #399ED3;
+background: #71AC1C;
 }
 
 .RadPanelBar_TCAdmin .rpOut
@@ -3237,7 +3237,7 @@ border-color: #89aee5;
 .RadPanelBar_TCAdmin .rpFocused,
 .RadPanelBar_TCAdmin .rpLink:hover
 {
-background: #399ED3 url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/Panelbar/TitleCorner.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF);
+background: #71AC1C url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/Panelbar/TitleCorner.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF);
 background-position: 0 0 !important;
 }
 
@@ -3250,7 +3250,7 @@ border-color: #002d96;
 .RadPanelBar_TCAdmin .rpSelected:hover
 {
 /*color: #fff;
-background-color: #399ED3;
+background-color: #71AC1C;
 border-color: #9eb6ce;*/
 }
 
@@ -5326,4 +5326,4230 @@ width: 3px;
 font-size: 0px;
 background: white;
 height: 3px;
+}/*********************************************************************/
+/******************************** Custom.css ********************************/
+/*********************************************************************/
+/*********************************************************************/
+/******************************** TaskScheduler.css ********************************/
+/*********************************************************************/
+
+.TCAdmin_CalendarTask {
+cursor: pointer
+}
+
+/*********************************************************************/
+/******************************** TCAdmin.css ********************************/
+/*********************************************************************/
+/*  ----------------------  */
+/*  TCAdmin Shared Classes  */
+/*  ----------------------  */
+
+.Hint {
+max-width: 350px
+}
+
+.FloatLeft {
+float: left
+}
+
+.FloatRight {
+float: right
+}
+
+.Clear {
+clear: both
+}
+
+.NoWrap {
+white-space: nowrap
+}
+
+.TCAdmin_MediumVerticalSpacer {
+height: 4px
+}
+
+.TCAdmin_MaxSize {
+height: 100%;
+width: 100%;
+vertical-align: top
+}
+
+.TCAdmin_MaxHeight {
+height: 100%;
+vertical-align: top
+}
+
+.TCAdmin_Padding {
+padding: 5px
+}
+
+.TCAdmin_ConfigurationUtilityContainer {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+border: solid 1px #736F6E;
+margin: auto;
+padding: 5px 15px
+}
+
+.TCAdmin_LoginContainer {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 10%;
+left: 0;
+width: 350px;
+height: 310px;
+margin: auto
+}
+
+.TCAdmin_LoginContainer table{
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+}
+
+.ie .TCAdmin_LoginContainer {
+top: 15%;
+height: auto;
+width: 100%
+}
+
+.TCAdmin_PageLoadingCover {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 99;
+display: none;
+vertical-align: middle;
+text-align: center;
+opacity: 0.8;
+filter: alpha(opacity=80)
+}
+
+.TCAdmin_ServiceActionImage {
+vertical-align: middle;
+border-width: 0!important
+}
+
+.gecko .TCAdmin_ServiceActionImage {
+vertical-align: top
+}
+
+.FullScreenModeDisabled .TCAdmin_AutoHeight {
+height: auto!important;
+min-height: 400px!important
+}
+
+/*  -----------  */
+/*  List Search  */
+/*  -----------  */
+
+.TCAdmin_ListSearchPrompt {
+font-style: italic;
+color: Gray;
+background-color: #FFF
+}
+
+.TCAdmin_UpdateDescription ul {
+padding-left: 10px;
+margin: 0
+}
+
+.None div.rwDialogPopup {
+background-image: none!important;
+padding-left: 0
+}
+
+.Error div.rwDialogPopup {
+background-image: url(../../App_Themes/Default/Images/ControlPanel/Other/AlertError.png)!important;
+padding-top: 4px
+}
+
+.Info div.rwDialogPopup {
+background-image: url(../../App_Themes/Default/Images/ControlPanel/Other/AlertInfo.png)!important;
+padding-top: 4px
+}
+
+.TCAdmin_Attachment {
+float: right;
+margin-left: 5px;
+margin-right: 5px
+}
+
+/*********************************************************************/
+/******************************** Theme.css ********************************/
+/*********************************************************************/
+
+table,
+textarea,
+tr,
+td,
+p,
+a,
+span,
+div,
+select,
+input,
+button {
+font-family: verdana;
+font-size: 8pt
+}
+
+html,
+body,
+form {
+height: 100%;
+margin: 0
+}
+
+body {
+color: #000;
+background-color: #FFF
+}
+
+div#leftcol {
+    background: url('/App_Themes/Default/Images/Left.png') repeat-y;
+    height:100%;
+    position:fixed;
+    width:23px
+}
+
+div#rightcol {
+    background: url('/App_Themes/Default/Images/Right.png') repeat-y right;
+    height:100%;
+    position:fixed;
+    right:0;
+    width:23px
+}
+
+div#centercol {
+height:100%
+}
+
+div#push {
+height: 115px
+}
+
+.FullScreenMode div#leftcol,
+.FullScreenMode div#centercol {
+height:100%
+}
+
+/* ----------------------------------------------------------------------- */
+
+.FullScreenMode .MainBody
+{
+overflow:hidden
+}
+
+.DialogMainBody
+{
+padding:0;
+padding-right:0;
+background-image:none
+}
+
+.Main {
+min-height: 100%;
+margin: 0 auto -115px
+}
+
+.Main .Header {
+width: 100%;
+position: relative;
+z-index: 2
+}
+
+.Main .Header .CustomHeader {
+text-align: left;
+margin-left: 23px;
+padding-right: 23px;
+position: relative
+}
+
+.CustomHtmlHeader .Main .Header .CustomHeader {
+margin-left: 0;
+padding-right: 0
+}
+
+div .Main .Header .TopNavigation {
+margin-left: 23px;
+padding-right: 23px
+}
+
+.Main .BreadCrumb {
+vertical-align: middle;
+border-top: solid 1px #CBCBCB;
+width: 100%;
+line-height: 15px;
+padding-bottom: 2px
+}
+
+.Main .BreadCrumb .RightItem {
+position: absolute!important;
+right: 0;
+top: 0
+}
+
+.Main .Header .Sub {
+clear: both;
+background-color: #71AC1C;
+font-weight: 700;
+color: #FFF;
+height: 34px;
+padding-top: 10px;
+margin: 0 -23px
+}
+
+.MobileEnabled .Main .Header .Sub {
+white-space: nowrap;
+overflow: hidden
+}
+
+.MobileEnabled .Main .Header .Sub .TitleContainer {
+float: none
+}
+
+.Main .Header .Sub .Info {
+height: 24px;
+width: 230px;
+display: table-cell;
+vertical-align: middle;
+background: none
+}
+
+.Main .Header .Sub .Info span {
+padding-left: 30px
+}
+
+.Main .Header .Sub .Icon {
+float: left;
+text-align: center;
+height: 24px;
+width: 24px;
+padding-right: 5px
+}
+
+.Main .Header .Sub .Title {
+display: table-cell;
+vertical-align: middle;
+height: 24px
+}
+
+.Main .Header .Sub .Title .Text {
+color: #FFF;
+text-align: center
+}
+
+.Main .Header .Sub .WidgetConfig {
+float: right;
+height: 24px;
+background: url(../../App_Themes/Default/../../Interface/Base/ColorChange.ashx?img=Images/SubHeaderCornerRight.png&theme=1%3a5a47bc8b-7f45-4084-b4c6-0ed5506d4b47&tocolor=White) no-repeat right;
+padding-right: 5px
+}
+
+.HideSideBar {
+background: url(../../App_Themes/Default/../../Interface/Base/ColorChange.ashx?img=Images/HideSideBar.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF) no-repeat center;
+cursor: pointer;
+float: right;
+padding-right: 12px;
+width: 6px;
+height: 13px
+}
+
+.ShowSideBar {
+background: url(../../App_Themes/Default/../../Interface/Base/ColorChange.ashx?img=Images/ShowSideBar.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF) no-repeat center;
+cursor: pointer;
+float: right;
+padding-right: 12px;
+width: 6px;
+height: 13px
+}
+
+.Main .Center {
+width: 100%;
+position: relative;
+z-index: auto!important
+}
+
+.Main .Center .Left {
+width: 230px;
+overflow-y: auto;
+overflow-x: hidden;
+height: 100%;
+float: left
+}
+
+.Main .Center .MainContainer {
+height: 100%;
+margin-left: 23px;
+margin-right: 23px
+}
+
+.Main .Center .MainContent {
+padding-top: 2px;
+height: 100%;
+margin-left: 230px
+}
+
+.Main .Center .Icons {
+padding: 2px 0 5px
+}
+
+.FullScreenMode .Main .Center .Icons {
+bottom: 115px;
+position: absolute;
+visibility: hidden;
+overflow-x: auto
+}
+
+.FullScreenMode .Main .ui-layout-pane-center .Icons {
+visibility: visible
+}
+
+.Footer {
+background: url(/User_Themes/1/00000000-0000-0000-0000-000000000001/Footer.png);
+text-align: center;
+width: 100%;
+clear: both
+}
+
+.FullScreenMode .Footer {
+position: absolute!important;
+bottom: 0;
+left: 0;
+right: 0
+}
+
+.FullScreenMode .Footer .Spacer .Border {
+border-top: 1px solid #CBCBCB;
+margin-left: 23px;
+margin-right: 23px
+}
+
+.Footer .Spacer table {
+border-top: 1px solid #CBCBCB;
+width: 100%;
+height: 100%
+}
+
+.FullScreenMode .Footer .Bottom {
+padding-bottom: 2px;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0
+}
+
+.Footer .Text {
+font-size: 7pt;
+color: gray
+}
+
+.Notifications {
+position: absolute;
+z-index: 100000;
+right: 0;
+bottom: 0;
+color: #000;
+margin: 0 15px 25px 0
+}
+
+.UpdateNotification {
+border: 1px solid #666;
+display: none;
+background: #FFF url(../../App_Themes/Default/Images/ControlPanel/MenuIcons/Base/Updates16x16.png) no-repeat 5px 5px;
+padding: 6px
+}
+
+.UpdateNotificationIcon {
+background: url(../../App_Themes/Default/Images/ControlPanel/MenuIcons/Base/Updates16x16.png) no-repeat;
+height: 16px;
+width: 16px
+}
+
+.UpdateNotification .Header {
+float: left;
+padding: 0 50px 5px 20px
+}
+
+.DebugConsole {
+border: 1px solid #666;
+display: none;
+background: #FFF url(../../App_Themes/Default/../../Interface/Base/Images/DebugIcon.png) no-repeat 5px 5px;
+padding: 6px
+}
+
+.DebugConsole .Header {
+float: left;
+padding: 0 0 5px 20px
+}
+
+.DebugConsole .Output {
+font-family: Monospace;
+color: #FFF;
+background-color: #000;
+min-width: 600px;
+width: 100%
+}
+
+.HiddenToolBarPopupPanel {
+background-color: #FFF;
+position: absolute;
+display: none
+}
+
+.AddWidgetPanel {
+border: 1px solid #71AC1C;
+right: 23px;
+top: 1px
+}
+
+.ToolBarPopupPanel {
+left: 0;
+top: 32px;
+border: 1px solid #71AC1C
+}
+
+.SideBarDisabled .Main .Header .Sub .Info {
+width: 3px
+}
+
+.SessionInfo .Row {
+line-height: 132%;
+padding-bottom: 5px
+}
+
+.SessionInfo .RowCentered {
+line-height: 132%;
+padding-bottom: 5px;
+text-align: center
+}
+
+.opera .RadPageView {
+overflow: visible!important
+}
+
+.ObjectInformationContainer {
+margin: 5px
+}
+
+/*********************************************************************/
+/******************************** Upload.css ********************************/
+/*********************************************************************/
+
+.ProgressBar {
+border: 0;
+width: 100%;
+height: 2em;
+margin: 0;
+padding: 0
+}
+
+#progressDisplayCenterer {
+vertical-align: middle;
+width: 100%;
+height: 100%
+}
+
+#progressDisplay {
+vertical-align: middle;
+width: 100%
+}
+
+#statusDiv {
+position: relative;
+width: 100%;
+text-align: center;
+z-index: 1;
+border-style: solid;
+border-width: 1px;
+padding: 0
+}
+
+#barDiv,
+#barDetailsDiv {
+border: 0 none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+height: 100%;
+width: 75%;
+margin: 0;
+padding: 0
+}
+
+.ProgressDisplay .StatusMessage {
+height: 1.5em;
+margin: 1px
+}
+
+.ProgressDisplay .ProgressBar {
+background-color: #ccc
+}
+
+.ProgressDisplay .ImageButton {
+background-color: inherit;
+border-width: 0;
+margin: 0;
+padding: 0
+}
+
+.ProgressDisplay .ImageButton img {
+height: 24px;
+width: 24px;
+vertical-align: top;
+border-color: #FFF;
+border-style: none;
+border-width: 0;
+margin: 0;
+padding: 0
+}
+
+/*********************************************************************/
+/******************************** Button.css ********************************/
+/*********************************************************************/
+/*  --------------  */
+/*  Normal Buttons  */
+/*  --------------  */
+
+.Button {
+color: #FFF;
+cursor: pointer;
+padding-left: 25px;
+padding-right: 5px;
+height: 26px;
+background-color: #71AC1C;
+border: solid 1px #399ED3;
+width: auto;
+overflow: visible;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 700;
+border-style: solid;
+border-width: 1px
+}
+
+.Button:hover {
+color: #FFF;
+background-color: #71AC1C;
+border: solid 1px #E4E2E9
+}
+
+.NormalButton {
+padding-left: 15px;
+padding-right: 15px
+}
+
+.ie6 .OKButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/OK.jpg) left center no-repeat
+}
+
+.OKButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/OK.png) left center no-repeat;
+background-color: #CCC9D6
+}
+
+.ie6 .SaveButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Save.jpg) left center no-repeat
+}
+
+.SaveButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Save.png) left center no-repeat;
+background-color: #CCC9D6
+}
+
+.ie6 .AddButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Add.jpg) left center no-repeat
+}
+
+.AddButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Add.png) left center no-repeat;
+background-color: #CCC9D6
+}
+
+.ie6 .CancelButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Cancel.jpg) left center no-repeat
+}
+
+.CancelButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Cancel.png) left center no-repeat;
+background-color: #CCC9D6
+}
+
+.ie6 .DeleteButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Delete.jpg) left center no-repeat
+}
+
+.DeleteButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Delete.png) left center no-repeat;
+background-color: #CCC9D6
+}
+
+.ie6 .UploadButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Upload.jpg) left center no-repeat
+}
+
+.UploadButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Upload.png) left center no-repeat;
+background-color: #CCC9D6
+}
+
+.ie6 .LoadingButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Loading.jpg) left center no-repeat
+}
+
+.LoadingButton {
+background: url(../../App_Themes/Default/Controls/../Images/ControlPanel/Buttons/Loading.png) left center no-repeat;
+background-color: #CCC9D6
+}
+
+/*********************************************************************/
+/******************************** Container.css ********************************/
+/*********************************************************************/
+
+.Panel {
+font-weight: 400;
+margin-top: 0;
+margin-bottom: 0;
+height: 100%
+}
+
+.Panel .BottomBorder {
+border-bottom: solid 1px #CBCBCB
+}
+
+.gecko .TCAdmin_MultiPageScroller {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0
+}
+
+.gecko .TCAdmin_MultiPageScrollerWrapper {
+overflow: auto;
+position: relative
+}
+
+.webkit .TCAdmin_MultiPageScrollerWrapper {
+overflow: auto
+}
+
+.TCAdmin_TabPageSplitter {
+width: 1px;
+background: #399ED3
+}
+
+.TCAdmin_TabPageSplitterCenter {
+width: 5px;
+background: #E4E2E9
+}
+
+/*********************************************************************/
+/******************************** DropDownList.css ********************************/
+/*********************************************************************/
+
+select .HeaderItem {
+font-weight: 700;
+text-align: center
+}
+
+.HyperLink,
+.HyperLinkCommand {
+text-decoration: none;
+color: #666
+}
+
+.HyperLink:hover {
+text-decoration: underline;
+color: #000
+}
+
+.HyperLink img {
+vertical-align: middle
+}
+
+.Alert .HyperLinkCommand:hover {
+text-decoration: none
+}
+
+/*********************************************************************/
+/******************************** Label.css ********************************/
+/*********************************************************************/
+/*  ------  */
+/*  Labels  */
+/*  ------  */
+
+.SessionInfo .Label {
+color: #000;
+padding-right: 2px;
+text-align: right;
+min-width: 90px;
+float: left
+}
+
+.SessionInfo .Value .Label {
+color: #000;
+float: none
+}
+
+table .HeaderPanel span {
+font-weight: 700;
+color: #FFF
+}
+
+.LabelOn {
+color: green!important
+}
+
+.LabelOff {
+color: red!important
+}
+
+.LabelMessage {
+color: #399ed3
+}
+
+.LabelWarning {
+color: orange!important
+}
+
+.Validator span {
+background-color: #fffecd;
+border: solid 1px red;
+color: red!important;
+padding: 0 5px
+}
+
+/*********************************************************************/
+/******************************** Meter.css ********************************/
+/*********************************************************************/
+
+.Meter {
+background: #AAA none repeat scroll 0 0;
+height: 2.268em;
+margin-top: .09em;
+position: relative;
+width: 16.49em;
+float: right;
+border-radius: 0;
+border-color: #777 #CCC #CCC #777;
+border-style: solid;
+border-width: .09em
+}
+
+.Meter .Bar {
+max-width: 100%;
+background-color: #496FC7;
+height: 2.268em;
+border-radius: 0
+}
+
+.Meter .AlertBar {
+background-color: red;
+height: 2.268em;
+border-radius: 0
+}
+
+.Meter .Text {
+color: #FFF!important;
+height: 2.268em;
+line-height: 2.181em;
+position: absolute;
+text-align: center;
+top: 0;
+width: 100%;
+border-radius: 10px
+}
+
+/*********************************************************************/
+/******************************** Table.css ********************************/
+/*********************************************************************/
+/*  ------------  */
+/*  Detail Table  */
+/*  ------------  */
+
+.TableBorder {
+border-color: #DEDFDE;
+border-style: solid;
+border-width: 0 0 1px 1px
+}
+
+.TableBorder td {
+border-color: #DEDFDE;
+border-style: solid;
+border-width: 1px 1px 0 0;
+margin: 0;
+padding: 4px
+}
+
+.LoginTable {
+background-color: #FFF;
+border-color: #DEDFDE;
+border-style: solid;
+border-width: 1px;
+
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px
+}
+
+.Table .FieldName {
+text-align: right;
+padding-left: 8px;
+padding-bottom: 3px;
+padding-right: 4px
+}
+
+.Table .Top {
+vertical-align: top;
+padding-top: 3px
+}
+
+.Widgets .Top {
+padding-top: 0
+}
+
+.Table .FieldValue {
+text-align: left;
+padding-left: 4px;
+padding-bottom: 3px;
+padding-right: 8px
+}
+
+.Table td {
+padding: 3px
+}
+
+/*  -----------------------  */
+/*  Table Header and Footer  */
+/*  -----------------------  */
+
+table .HeaderPanel {
+text-align: center;
+background-color: #71AC1C;
+height: 23px
+}
+
+table .HeaderPanelLeft {
+background-color: #71AC1C;
+border-top-left-radius: 2px;
+width: 10px
+}
+
+table .HeaderPanelRight {
+background-color: #71AC1C;
+border-top-right-radius: 2px;
+width: 10px
+}
+
+/*********************************************************************/
+/******************************** TextBox.css ********************************/
+/*********************************************************************/
+/*  -------  */
+/*  TextBox  */
+/*  -------  */
+
+.TextBox {
+width: 225px
+}
+
+.SessionInfo .TextBox {
+width: 110px
+}
+
+.TextAreaLargeScript {
+font-family: Monospace;
+width: 99.5%;
+height: 99%;
+min-height: 400px
+}
+
+.TextAreaLargeText {
+width: 99.5%;
+height: 99%;
+min-height: 150px
+}
+
+.TextAreaLargeWrapper {
+width: 650px
+}
+
+.TextArea {
+height: 75px;
+width: 300px
+}
+
+.CodeEditorWrapper {
+border: 1px solid #CBCBCB;
+height: 99%;
+width: 99%;
+min-height: 400px;
+background-color: #fff;
+padding: 0
+}
+
+/*********************************************************************/
+/******************************** TreeView.Containers.css ********************************/
+/*********************************************************************/
+
+.TCAdmin_HiddenTreeNode {
+color: #000;
+padding-left: 3px;
+text-decoration: none;
+filter: alpha(opacity=25);
+-moz-opacity: .25;
+opacity: .25
+}
+
+.TCAdmin_TreeExplorerLeft {
+width: 275px
+}
+
+/*********************************************************************/
+/******************************** BreadCrumb.css ********************************/
+/*********************************************************************/
+
+.RadMenu_BreadCrumb,
+.RadMenu_BreadCrumb a.rmLink {
+font: normal 12px/19px "Segoe UI", Arial, sans-serif;
+color: #000;
+text-decoration: none
+}
+
+.RadMenu_BreadCrumb .rmItem a.rmLink {
+padding: 1px 12px
+}
+
+.RadMenu_BreadCrumb .rmItem a.rmLink .rmText {
+padding-right: 0
+}
+
+.RadMenu_BreadCrumb .rmItem a.rmDisabled,
+.RadMenu_BreadCrumb .rmItem a.rmDisabled:hover {
+color: #7d7d7d;
+background-color: transparent;
+border: 0;
+padding: 1px 12px
+}
+
+.MobileEnabled .RadMenu_BreadCrumb .rmItem a.rmDisabled,
+.MobileEnabled .RadMenu_BreadCrumb .rmItem a.rmDisabled:hover {
+padding: 1px 0
+}
+
+.RadMenu_BreadCrumb img.rmLeftImage {
+padding-bottom: 3px;
+margin: 2px 2px 0 0
+}
+
+.RadMenu_BreadCrumb .rmGroup,
+.RadMenu_BreadCrumb .rmMultiColumn,
+.RadMenu_BreadCrumb .rmGroup .rmVertical {
+border: 1px solid #616161;
+background: #FFF url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C) repeat-y -1px 0
+}
+
+.RadMenu_BreadCrumb .rmTopRight,
+.RadMenu_BreadCrumb .rmBottomRight {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmRoundedRight.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23616161&tocolor=%23FFFFFF);
+background-color: transparent;
+background-repeat: no-repeat
+}
+
+.RadMenu_BreadCrumb_rtl .rmBottomLeft,
+.RadMenu_BreadCrumb_rtl .rmRoundedCorners ul.rmGroup,
+.RadMenu_BreadCrumb_rtl .rmRoundedCorners .rmMultiColumn,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_BreadCrumb .rmScrollWrapContainer .rmBottomLeft,
+.rmRoundedCorners.RadMenu_BreadCrumb_Context_rtl ul.rmGroup,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer {
+background-image: url(../../App_Themes/Default/Controls/Rad/BreadCrumb/rmRoundedLeft_rtl.png)
+}
+
+.RadMenu_BreadCrumb_rtl .rmTopRight,
+.RadMenu_BreadCrumb_rtl .rmBottomRight {
+background-image: url(../../App_Themes/Default/Controls/Rad/BreadCrumb/rmRoundedRight_rtl.png)
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmLink {
+margin: 1px 0;
+padding: 1px
+}
+
+.RadMenu .rmGroup .rmItem .rmLeftImage {
+margin: 2px 0 0 6px
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmDisabled,
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmDisabled:hover {
+padding: 1px
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmLink .rmText {
+padding-right: 53px
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmHorizontal a.rmLink .rmText {
+padding-right: 10px
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmExpandRight,
+.RadMenu_BreadCrumb .rmGroup .rmExpandLeft,
+.RadMenu_BreadCrumb .rmTopArrow,
+.RadMenu_BreadCrumb .rmBottomArrow,
+.RadMenu_BreadCrumb .rmLeftArrow,
+.RadMenu_BreadCrumb .rmRightArrow {
+background: transparent url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmExpandArrows.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23000000&tocolor=%23000000) no-repeat
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmExpandLeft {
+background-position: 0 -48px
+}
+
+.RadMenu_BreadCrumb a.rmLink:hover .rmExpandRight,
+.RadMenu_BreadCrumb a.rmFocused .rmExpandRight,
+.RadMenu_BreadCrumb a.rmSelected .rmExpandRight,
+.RadMenu_BreadCrumb a.rmExpanded .rmExpandRight {
+background-position: 100% -24px
+}
+
+.RadMenu_BreadCrumb a.rmLink:hover .rmExpandLeft,
+.RadMenu_BreadCrumb a.rmFocused .rmExpandLeft,
+.RadMenu_BreadCrumb a.rmSelected .rmExpandLeft,
+.RadMenu_BreadCrumb a.rmExpanded .rmExpandLeft {
+background-position: 0 -72px
+}
+
+.RadMenu_BreadCrumb .rmTopArrow {
+border-bottom: 1px solid #616161;
+background-position: 50% -95px
+}
+
+.RadMenu_BreadCrumb .rmBottomArrow {
+border-top: 1px solid #616161;
+background-position: 50% -109px
+}
+
+.RadMenu_BreadCrumb .rmLeftArrow {
+border-right: 1px solid #616161;
+background-position: 50% -48px
+}
+
+.RadMenu_BreadCrumb .rmRightArrow {
+border-left: 1px solid #616161;
+background-position: 50% 1px
+}
+
+.RadMenu_BreadCrumb .rmVertical li.rmSeparator,
+.RadMenu_BreadCrumb .rmHorizontal .rmVertical li.rmSeparator {
+border-left: 0;
+border-right: 0
+}
+
+.RadMenu_BreadCrumb .rmVertical li.rmSeparator .rmText,
+.RadMenu_BreadCrumb .rmHorizontal .rmVertical li.rmSeparator .rmText {
+background: #616161;
+padding-bottom: 1px;
+margin-top: 2px
+}
+
+.RadMenu_BreadCrumb .rmHorizontal li.rmSeparator .rmText,
+.RadMenu_BreadCrumb .rmVertical .rmHorizontal li.rmSeparator .rmText {
+background: #616161;
+width: 1px;
+margin-left: 1px
+}
+
+.RadMenu_BreadCrumb_rtl .rmGroup .rmItem a.rmLink .rmText {
+padding-left: 53px;
+padding-right: 27px
+}
+
+.RadMenu_BreadCrumb_rtl .rmGroup .rmHorizontal a.rmLink .rmText {
+padding-left: 10px;
+padding-right: 9px
+}
+
+/*********************************************************************/
+/******************************** ComboBox.css ********************************/
+/*********************************************************************/
+
+.RadComboBox_TCAdmin,
+.RadComboBox_TCAdmin .rcbInput,
+.RadComboBoxDropDown_TCAdmin {
+font: 12px "Segoe UI", Arial, sans-serif;
+color: #1e395b
+}
+
+.RadComboBox_TCAdmin .rcbHovered .rcbReadOnly td.rcbInputCellLeft {
+background-position: 0 -22px
+}
+
+.RadComboBox_TCAdmin .rcbFocused .rcbReadOnly td.rcbInputCellLeft {
+background-position: 0 -44px
+}
+
+.RadComboBox_TCAdmin .rcbFocused .rcbReadOnly td.rcbInputCellRight {
+background-position: 100% -44px
+}
+
+.RadComboBox_TCAdmin td.rcbArrowCellRight {
+background-position: 0 -88px
+}
+
+.RadComboBox_TCAdmin .rcbHovered .rcbArrowCellRight {
+background-position: -36px -88px
+}
+
+.RadComboBox_TCAdmin .rcbFocused .rcbArrowCellRight {
+background-position: -72px -88px
+}
+
+.RadComboBox_TCAdmin .rcbHovered .rcbReadOnly td.rcbArrowCellHidden {
+background-position: -51px -88px
+}
+
+.RadComboBox_TCAdmin .rcbFocused .rcbReadOnly td.rcbArrowCellHidden {
+background-position: -87px -88px
+}
+
+.RadComboBox_TCAdmin .rcbReadOnly td.rcbArrowCellRight {
+background-position: -2px -88px
+}
+
+.RadComboBox_TCAdmin .rcbHovered .rcbReadOnly .rcbArrowCellRight {
+background-position: -38px -88px
+}
+
+.RadComboBox_TCAdmin .rcbFocused .rcbReadOnly .rcbArrowCellRight {
+background-position: -74px -88px
+}
+
+.RadComboBoxDropDown_TCAdmin {
+background: #fff;
+color: #000;
+border-color: #a5b3c5
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbHeader,
+.RadComboBoxDropDown_TCAdmin .rcbFooter {
+background-color: #f1f2f4;
+background-position: 0 -110px
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbHeader {
+border-bottom-color: #a5b3c5
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbFooter {
+border-top-color: #a5b3c5
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbItem em {
+background: #e5e5e5
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbHovered {
+background: #eef6ff;
+color: #1e395b
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbSeparator {
+color: #666;
+background: #e0e0e0
+}
+
+.RadComboBox_TCAdmin .rcbDisabled td.rcbInputCellLeft {
+background-position: 0 -66px
+}
+
+.RadComboBox_TCAdmin .rcbDisabled td.rcbInputCellRight {
+background-position: 100% -66px
+}
+
+.RadComboBox_TCAdmin .rcbDisabled td.rcbArrowCellLeft {
+background-position: -126px -88px
+}
+
+.RadComboBox_TCAdmin .rcbDisabled td.rcbArrowCellRight {
+background-position: -108px -88px
+}
+
+.RadComboBox_TCAdmin .rcbDisabled .rcbReadOnly td.rcbArrowCellRight {
+background-position: -110px -88px
+}
+
+.RadComboBox_TCAdmin table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_TCAdmin .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden {
+background-position: -123px -88px
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbLoading {
+background: #f0f0f0
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbMoreResults {
+border-top-color: #e0e0e0;
+background: #fff;
+color: #4c607a
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbMoreResults a {
+background-position: -157px -94px
+}
+
+.RadComboBoxDropDown_TCAdmin .rcbMoreResults a:hover {
+background-position: -188px -94px
+}
+
+/*********************************************************************/
+/******************************** Grid.css ********************************/
+/*********************************************************************/
+
+.RadGrid_TCAdmin .rgHeaderDiv {
+background-color: #F2F2F2!important;
+background: #F2F2F2
+}
+
+.RadGridRowMouseOver td {
+background-color: #E7F1FF
+}
+
+.RadGrid_TCAdmin {
+border: 1px solid #999;
+background-color: #FFF color: #000
+}
+
+.RadGrid_TCAdmin,
+.RadGrid_TCAdmin .rgMasterTable,
+.RadGrid_TCAdmin .rgDetailTable,
+.RadGrid_TCAdmin .rgGroupPanel table,
+.RadGrid_TCAdmin .rgCommandRow table,
+.RadGrid_TCAdmin .rgEditForm table,
+.RadGrid_TCAdmin .rgPager table,
+.GridToolTip_TCAdmin {
+font: 12px/16px "segoe ui", arial, sans-serif;
+color: #000
+}
+
+.RadGrid_TCAdmin .rgHeader:first-child,
+.RadGrid_TCAdmin th.rgResizeCol:first-child,
+.RadGrid_TCAdmin .rgFilterRow>td:first-child,
+.RadGrid_TCAdmin .rgRow>td:first-child,
+.RadGrid_TCAdmin .rgAltRow>td:first-child {
+border-left-width: 0;
+padding-left: 8px
+}
+
+.RadGrid_TCAdmin .rgAdd,
+.RadGrid_TCAdmin .rgRefresh,
+.RadGrid_TCAdmin .rgEdit,
+.RadGrid_TCAdmin .rgDel,
+.RadGrid_TCAdmin .rgFilter,
+.RadGrid_TCAdmin .rgPagePrev,
+.RadGrid_TCAdmin .rgPageNext,
+.RadGrid_TCAdmin .rgPageFirst,
+.RadGrid_TCAdmin .rgPageLast,
+.RadGrid_TCAdmin .rgExpand,
+.RadGrid_TCAdmin .rgCollapse,
+.RadGrid_TCAdmin .rgSortAsc,
+.RadGrid_TCAdmin .rgSortDesc,
+.RadGrid_TCAdmin .rgUpdate,
+.RadGrid_TCAdmin .rgCancel,
+.RadGrid_TCAdmin .rgUngroup,
+.RadGrid_TCAdmin .rgExpXLS,
+.RadGrid_TCAdmin .rgExpDOC,
+.RadGrid_TCAdmin .rgExpPDF,
+.RadGrid_TCAdmin .rgExpCSV {
+background-image: url(../../App_Themes/Default/Controls/Rad/Grid/sprite.gif)
+}
+
+.RadGrid_TCAdmin .rgHeader,
+.RadGrid_TCAdmin th.rgResizeCol {
+border: 0;
+border-bottom: 1px solid #9E9E9E;
+border-left: 1px solid #9E9E9E;
+background: #F2F2F2
+}
+
+.RadGrid_TCAdmin th.rgSorted {
+background-color: #E6E6E6
+}
+
+.RadGrid_TCAdmin .rgRow td,
+.RadGrid_TCAdmin .rgAltRow td,
+.RadGrid_TCAdmin .rgEditRow td,
+.RadGrid_TCAdmin .rgFooter td {
+border-style: solid;
+border-width: 0
+}
+
+.RadGrid_TCAdmin .rgRow td {
+border-color: #fff #c3c3c3
+}
+
+.RadGrid_TCAdmin .rgAltRow td {
+border-color: #ededed #c3c3c3
+}
+
+.RadGrid_TCAdmin .rgRow .rgSorted {
+border-bottom-color: #F2F2F2;
+background-color: #F2F2F2
+}
+
+.RadGrid_TCAdmin .rgAltRow .rgSorted {
+border-bottom-color: #E6E6E6;
+background-color: #E6E6E6
+}
+
+.RadGrid_TCAdmin .rgActiveRow,
+.RadGrid_TCAdmin .rgHoveredRow {
+background: #ffe79c 0 -2900px repeat-x url(../../App_Themes/Default/Controls/Rad/Grid/sprite.gif);
+color: #892500
+}
+
+.RadGrid_TCAdmin .rgEditRow {
+background: #fff 0 -4900px repeat-x url(../../App_Themes/Default/Controls/Rad/Grid/sprite.gif)
+}
+
+.RadGrid_TCAdmin .rgActiveRow td,
+.RadGrid_TCAdmin .rgActiveRow td.rgSorted,
+.RadGrid_TCAdmin .rgHoveredRow td,
+.RadGrid_TCAdmin .rgHoveredRow td.rgSorted {
+border-color: #c98400 #ffe79c
+}
+
+.RadGrid_TCAdmin .rgEditRow td,
+.RadGrid_TCAdmin .rgEditRow td.rgSorted {
+border-color: #616161 #c3c3c3
+}
+
+.RadGrid_TCAdmin .rgFooter td {
+border-top: 1px solid;
+border-color: #999 #c3c3c3
+}
+
+.RadGrid_TCAdmin .rgPager .rgStatus {
+border: 1px solid;
+border-left: 0;
+border-color: #999 #999 #F2F2F2 #F2F2F2
+}
+
+.RadGrid_TCAdmin .rgStatus div {
+background-image: url(../../App_Themes/Default/Controls/Rad/Common/loading_small.gif)
+}
+
+.RadGrid_TCAdmin td.rgPagerCell {
+border: 1px solid;
+border-right: 0;
+border-color: #999 #F2F2F2 #F2F2F2
+}
+
+.RadGrid_TCAdmin .rgInfoPart strong {
+color: #000;
+font-weight: 700
+}
+
+.RadGrid_TCAdmin .rgPager .rgPagerButton {
+background: #c6c6c6;
+color: #000;
+font: 12px/12px "segoe ui", arial, sans-serif;
+border-color: #7e7e7e
+}
+
+.RadGrid_TCAdmin .rgNumPart a {
+border: 1px solid #F2F2F2;
+line-height: 20px;
+color: #000
+}
+
+.RadGrid_TCAdmin .rgNumPart a:hover {
+background: #ffe79c;
+color: #892500;
+border-color: #c98400
+}
+
+.RadGrid_TCAdmin .rgNumPart a.rgCurrentPage,
+.RadGrid_TCAdmin .rgNumPart a.rgCurrentPage:hover {
+background: #fff;
+color: #892500;
+border-color: #892500
+}
+
+.RadGrid_TCAdmin .rgHeader .rgSortAsc {
+background-position: 3px -248px;
+height: 10px
+}
+
+.RadGrid_TCAdmin .rgHeader .rgSortDesc {
+background-position: 3px -198px;
+height: 10px
+}
+
+.GridReorderTop_TCAdmin,
+.GridReorderBottom_TCAdmin {
+background: 0 0 no-repeat url(../../App_Themes/Default/Controls/Rad/Grid/sprite.gif)
+}
+
+.RadGrid_TCAdmin .rgFilterRow td {
+border-bottom: 1px solid #999;
+border-left: 0 solid #F2F2F2
+}
+
+.RadGrid_TCAdmin .rgFilter:hover {
+background-position: 0 -350px
+}
+
+.RadGrid_TCAdmin .rgFilterActive,
+.RadGrid_TCAdmin .rgFilterActive:hover {
+background-position: 0 -400px
+}
+
+.RadGrid_TCAdmin .rgFilterBox {
+font: 12px "segoe ui", arial, sans-serif;
+color: #000;
+border-color: #616161
+}
+
+.RadMenu_TCAdmin .rgHCMClear,
+.RadMenu_TCAdmin .rgHCMFilter {
+background: #c6c6c6;
+color: #000;
+font-family: "segoe ui", arial, sans-serif;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+border-color: #7e7e7e
+}
+
+.RadMenu_TCAdmin .rgHCMClear:hover,
+.RadMenu_TCAdmin .rgHCMFilter:hover {
+background-color: #ffe79c;
+color: #882501;
+border-color: #c98400
+}
+
+.RadGrid_TCAdmin .rgGroupPanel {
+border: 0;
+border-bottom: 1px solid #7C7C7C;
+background: #C6C6C6;
+color: #000
+}
+
+.RadGrid_TCAdmin .rgGroupPanel td {
+border: 0;
+padding: 3px 4px
+}
+
+.RadGrid_TCAdmin .rgGroupPanel .rgSortAsc {
+background-position: 4px -144px
+}
+
+.RadGrid_TCAdmin .rgGroupPanel .rgSortDesc {
+background-position: 4px -94px
+}
+
+.RadGrid_TCAdmin .rgUngroup {
+background-position: 0 -6999px
+}
+
+.RadGrid_TCAdmin .rgGroupItem {
+border: 1px solid #7C7C7C;
+background: #C6C6C6;
+color: #000
+}
+
+.RadGrid_TCAdmin .rgMasterTable td.rgGroupCol,
+.RadGrid_TCAdmin .rgMasterTable td.rgExpandCol {
+background: #C6C6C6 none;
+border-color: #7C7C7C
+}
+
+.RadGrid_TCAdmin .rgGroupHeader {
+background: #C6C6C6;
+font-size: 1.1em;
+line-height: 22px;
+color: #000
+}
+
+.RadGrid_TCAdmin .rgGroupHeader td {
+padding-left: 8px;
+padding-bottom: 2px
+}
+
+.RadGrid_TCAdmin .rgExpand {
+background-position: 5px -496px
+}
+
+.RadGrid_TCAdmin .rgCollapse {
+background-position: 3px -444px
+}
+
+.RadGrid_TCAdmin .rgEditForm {
+border-bottom: 1px solid #999
+}
+
+.RadGrid_TCAdmin .rgUpdate {
+background-position: 0 -1800px
+}
+
+.RadGrid_TCAdmin .rgCancel {
+background-position: 0 -1850px
+}
+
+.RadGrid_TCAdmin .rgCommandRow {
+background: #c6c6c6;
+color: #000
+}
+
+.RadGrid_TCAdmin .rgCommandCell {
+border: 0;
+border-bottom: 1px solid #7c7c7c;
+padding: 0
+}
+
+.RadGrid_TCAdmin tfoot .rgCommandCell {
+border-top: 1px solid #7c7c7c;
+border-bottom: 0
+}
+
+.RadGrid_TCAdmin .rgCommandTable td {
+border: 0;
+padding: 2px 7px
+}
+
+.RadGrid_TCAdmin .rgCommandRow a {
+color: #000;
+text-decoration: none
+}
+
+.RadGrid_TCAdmin .rgAdd {
+margin-right: 3px;
+background-position: 0 -1650px
+}
+
+.RadGrid_TCAdmin .rgRefresh {
+margin-right: 3px;
+background-position: 0 -1600px
+}
+
+.RadGrid_TCAdmin .rgEdit {
+background-position: 0 -1700px
+}
+
+.RadGrid_TCAdmin .rgDel {
+background-position: 0 -1750px
+}
+
+.RadGrid_TCAdmin .rgExpXLS,
+.RadGrid_TCAdmin .rgExpDOC,
+.RadGrid_TCAdmin .rgExpPDF,
+.RadGrid_TCAdmin .rgExpCSV {
+background-image: url(../../App_Themes/Default/Controls/Rad/../Common/Grid/export.gif)
+}
+
+.GridRowSelector_TCAdmin {
+background: #4c4e54
+}
+
+.GridItemDropIndicator_TCAdmin {
+border-top: 1px dashed #666
+}
+
+.GridToolTip_TCAdmin {
+border: 1px solid #c98400;
+background: #ffefbd;
+color: #333;
+padding: 3px
+}
+
+.RadGridRTL_TCAdmin .rgHeader:first-child,
+.RadGridRTL_TCAdmin th.rgResizeCol:first-child,
+.RadGridRTL_TCAdmin .rgFilterRow>td:first-child,
+.RadGridRTL_TCAdmin .rgRow>td:first-child,
+.RadGridRTL_TCAdmin .rgAltRow>td:first-child {
+border-left-width: 1px;
+padding-left: 7px
+}
+
+.TCAdmin_GridTable {
+border: 1px solid #7C7C7C
+}
+
+.TCAdmin_GridHeader {
+background-color: #F2F2F2;
+color: #000
+}
+
+.TCAdmin_GridHeaderSubHeader {
+background-color: #C6C6C6;
+color: %Grid.GroupPanel.Color%
+}
+
+.TCAdmin_GridRow {
+background: #FFF;
+color: #000
+}
+
+.TCAdmin_GridHoverRow {
+background: #E7F1FF;
+color: #000
+}
+
+/*********************************************************************/
+/******************************** ListBox.css ********************************/
+/*********************************************************************/
+
+.RadListBox_TCAdmin .rlbGroup {
+border: 1px inset #F0F0F0;
+background: #FFF
+}
+
+.RadListBox_TCAdmin .rlbText,
+.RadListBox_TCAdmin .rlbItem,
+.RadListBox_TCAdmin .rlbButtonText,
+.RadListBox_TCAdmin .rlbEmptyMessage {
+font-size: 12px;
+font-family: "Segoe UI", Arial, sans-serif;
+color: #000
+}
+
+.RadListBox_TCAdmin .rlbText,
+.RadListBox_TCAdmin .rlbItem {
+line-height: 18px
+}
+
+.RadListBox_TCAdmin .rlbGroup .rlbHovered {
+background: #FFF7AC
+}
+
+.RadListBox_TCAdmin .rlbGroup .rlbSelected {
+background: #ffe79c
+}
+
+.RadListBox_TCAdmin .rlbGroup .rlbSelected .rlbText {
+color: #882501
+}
+
+.RadListBox_TCAdmin .rlbGroup .rlbDisabled,
+.RadListBox_TCAdmin .rlbGroup .rlbDisabled:hover {
+background: none;
+border: 0
+}
+
+.RadListBox_TCAdmin .rlbDisabled .rlbImage {
+opacity: 0.5;
+-moz-opacity: 0.5;
+filter: alpha(opacity=50)
+}
+
+.RadListBox_TCAdmin .rlbDropClue {
+background-image: url(../../App_Themes/Default/Controls/Rad/'ListBox/rlbDropClue.png');
+background-position: 0 0;
+background-repeat: no-repeat;
+background-color: transparent;
+left: -10px;
+width: 10px
+}
+
+.RadListBox_TCAdmin .rlbGroup .rlbDropClueAbove {
+border-top-style: dotted;
+border-top-color: #8e8e8e
+}
+
+.RadListBox_TCAdmin .rlbGroup .rlbDropClueBelow {
+border-bottom-style: dotted;
+border-bottom-color: #8e8e8e
+}
+
+div.RadListBox_TCAdmin .rlbNoButtonText .rlbButtonTL {
+padding-left: 0
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbNoButtonText .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbNoButtonText .rlbButtonText {
+padding-left: 18px
+}
+
+.RadListBox_TCAdmin .rlbButtonText {
+background: transparent url(../../App_Themes/Default/Controls/Rad/'ListBox/rlbSprite.png') no-repeat
+}
+
+.RadListBox_TCAdmin .rlbButton {
+background: #c6c6c6;
+border: 1px solid #7e7e7e
+}
+
+div.RadListBox_TCAdmin .rlbButton {
+margin: 0 3px 5px
+}
+
+.RadListBox_TCAdmin .rlbButton:hover {
+background: #ffa517;
+border: 1px solid #ca4b0c
+}
+
+.RadListBox_TCAdmin .rlbDisabled,
+.RadListBox_TCAdmin .rlbDisabled:hover {
+background: #dfdfdf;
+border: 1px solid #9b9b9b
+}
+
+.RadListBox_TCAdmin .rlbMoveUp:hover .rlbButtonText {
+background-position: -400px 0
+}
+
+.RadListBox_TCAdmin .rlbMoveUpDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbMoveUpDisabled:hover .rlbButtonText {
+background-position: -200px 0
+}
+
+.RadListBox_TCAdmin .rlbMoveDown .rlbButtonText {
+background-position: 0 -25px
+}
+
+.RadListBox_TCAdmin .rlbMoveDown:hover .rlbButtonText {
+background-position: -400px -25px
+}
+
+.RadListBox_TCAdmin .rlbMoveDownDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbMoveDownDisabled:hover .rlbButtonText {
+background-position: -200px -25px
+}
+
+.RadListBox_TCAdmin .rlbMoveToTop .rlbButtonText {
+background-position: 0 -275px
+}
+
+.RadListBox_TCAdmin .rlbMoveToTop:hover .rlbButtonText {
+background-position: -400px -275px
+}
+
+.RadListBox_TCAdmin .rlbMoveToTopDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbMoveToTopDisabled:hover .rlbButtonText {
+background-position: -200px -275px
+}
+
+.RadListBox_TCAdmin .rlbMoveToBottom:hover .rlbButtonText {
+background-position: -400px -300px
+}
+
+.RadListBox_TCAdmin .rlbMoveToBottomDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbMoveToBottomDisabled:hover .rlbButtonText {
+background-position: -200px -300px
+}
+
+.RadListBox_TCAdmin .rlbDelete:hover .rlbButtonText {
+background-position: -400px -50px
+}
+
+.RadListBox_TCAdmin .rlbDeleteDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbDeleteDisabled:hover .rlbButtonText {
+background-position: -200px -50px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferFrom .rlbButtonText {
+background-position: 0 -75px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferFrom:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferTo:hover .rlbButtonText {
+background-position: -400px -100px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferTo:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferFrom:hover .rlbButtonText {
+background-position: -400px -75px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferFromDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferToDisabled:hover .rlbButtonText {
+background-position: -200px -100px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferToDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferFromDisabled:hover .rlbButtonText {
+background-position: -200px -75px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllFrom .rlbButtonText {
+background-position: 0 -125px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllFrom:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllTo:hover .rlbButtonText {
+background-position: -400px -150px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllTo:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllFrom:hover .rlbButtonText {
+background-position: -400px -125px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllFromDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllToDisabled:hover .rlbButtonText {
+background-position: -200px -150px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllToDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllFromDisabled:hover .rlbButtonText {
+background-position: -200px -125px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferFrom .rlbButtonText {
+background-position: 0 -175px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferFrom:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferTo:hover .rlbButtonText {
+background-position: -400px -200px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferTo:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferFrom:hover .rlbButtonText {
+background-position: -400px -175px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferFromDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferToDisabled:hover .rlbButtonText {
+background-position: -200px -200px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferToDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferFromDisabled:hover .rlbButtonText {
+background-position: -200px -175px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllFrom .rlbButtonText {
+background-position: 0 -250px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllFrom .rlbButtonText {
+background-position: 0 -225px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllFrom:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllTo:hover .rlbButtonText {
+background-position: -400px -250px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllTo:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllFrom:hover .rlbButtonText {
+background-position: -400px -225px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllFromDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllToDisabled:hover .rlbButtonText {
+background-position: -200px -250px
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferAllToDisabled:hover .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferAllFromDisabled:hover .rlbButtonText {
+background-position: -200px -225px
+}
+
+/*********************************************************************/
+/******************************** PageIcons.css ********************************/
+/*********************************************************************/
+/*  ---------------  */
+/*  PageIcons.ascx  */
+/*  ---------------  */
+
+.IconTitleLine {
+background: url(../../App_Themes/Default/Controls/Rad/../../Images/ThinLine.gif) repeat-x scroll 0 center transparent
+}
+
+.IconHeaderLabel {
+background-color: #FFF;
+padding-right: 8px
+}
+
+.TCAdmin_PageIconOuter {
+min-width: 120px;
+text-align: center
+}
+
+.TCAdmin_PageIcon span {
+min-width: 120px
+}
+
+/*********************************************************************/
+/******************************** ToolBar.css ********************************/
+/*********************************************************************/
+/*  ---------------  */
+/*  TabToolBar.ascx  */
+/*  ---------------  */
+
+.RadToolBar_TCAdminPageIcons .rtbSplBtnFocused .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnFocused .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnFocused .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnFocused .rtbIn,
+.RadToolBar_TCAdminPageIcons .rtbItemFocused .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbItemFocused .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbItemFocused .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbItemFocused .rtbIn,
+.RadToolBar_TCAdminPageIcons .rtbItemHovered .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbItemHovered .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbItemHovered .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbItemHovered .rtbIn {
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbHoverBg.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23E7F1FF)
+}
+
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbIn {
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbClickedBg.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23E7F1FF)
+}
+
+.RadToolBar_TCAdminPageIcons .rtbSplBtnExpanded .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnExpanded .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnExpanded .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnExpanded .rtbIn,
+.RadToolBar_TCAdminPageIcons .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbDropDownExpanded .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbDropDownExpanded .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbDropDownExpanded .rtbIn,
+.RadToolBar_TCAdminPageIcons .rtbChecked .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbChecked .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbChecked .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbChecked .rtbIn,
+.RadToolBar_TCAdminPageIcons li.rtbChecked .rtbWrap:hover,
+.RadToolBar_TCAdminPageIcons li.rtbChecked .rtbWrap:hover .rtbOut,
+.RadToolBar_TCAdminPageIcons li.rtbChecked .rtbWrap:hover .rtbMid,
+.RadToolBar_TCAdminPageIcons li.rtbChecked .rtbWrap:hover .rtbIn {
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbActiveBg.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23E7F1FF)
+}
+
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap {
+color: #888
+}
+
+.RadToolBarDropDown_TCAdmin {
+background-color: #F5F5F5;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbDropDownBg.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23EEEEEE&tocolor=%23C6C6C6);
+border-color: #828282
+}
+
+.RadToolBarDropDown_TCAdmin .rtbWrap,
+.RadToolBarDropDown_TCAdmin .rtbTemplate {
+font-weight: 400;
+font-size: 12px;
+font-family: "Segoe UI", Arial, sans-serif;
+color: #000
+}
+
+.RadToolBarDropDown_TCAdmin .rtbItemHovered,
+.RadToolBarDropDown_TCAdmin .rtbItemFocused,
+.RadToolBarDropDown_TCAdmin .rtbItemHovered .rtbWrap,
+.RadToolBarDropDown_TCAdmin .rtbItemFocused .rtbWrap {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbDropDownHover.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23C6C6C6)
+}
+
+.RadToolBarDropDown_TCAdmin .rtbDisabled .rtbWrap {
+color: #999
+}
+
+.RadToolBarDropDown_TCAdmin .rtbSeparator {
+background: #f7f7f7;
+border-color: #939393
+}
+
+
+/*********************************************************************/
+/******************************** PanelBar.css ********************************/
+/*********************************************************************/
+
+.RadPanelBar .rpRootGroup,
+.RadPanelBar .rpOut:hover,
+.RadPanelBar .rpOut {
+border-width: 0!important
+}
+
+.RadPanelBar .rpFocused .rpOut,
+.RadPanelBar .rpLink:hover .rpOut,
+.RadPanelBar .rpSelected .rpOut,
+.RadPanelBar .rpSelected:hover .rpOut {
+padding-bottom: 0!important
+}
+
+.RadPanelBar .rpLink {
+border-bottom-width: 0!important
+}
+
+.RadPanelBar_TCAdmin .rpRootGroup {
+border-color: #7496ce
+}
+
+.RadPanelBar_TCAdmin .rpLink,
+.RadPanelBar_TCAdmin .rpTemplate {
+color: #fff;
+font: normal 12px/24px "Segoe UI", Arial, sans-serif
+}
+
+.RadPanelBar_TCAdmin .rpLink {
+background: #71AC1C url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/Panelbar/TitleCorner.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF)
+}
+
+.RadPanelBar_TCAdmin .rpLink .rpText {
+color: #FFF;
+font-weight: 700
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpLink .rpText {
+color: #000;
+font-weight: 400
+}
+
+.RadPanelBar_TCAdmin .rpFocused,
+.RadPanelBar_TCAdmin .rpLink:hover {
+background: #71AC1C url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/Panelbar/TitleCorner.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF);
+background-position: 0 0!important
+}
+
+.RadPanelBar_TCAdmin .rpExpanded {
+border-color: #002d96
+}
+
+.RadPanelBar_TCAdmin .rpDisabled:hover {
+cursor: default;
+border-color: #002d96
+}
+
+.RadPanelBar_TCAdmin .rpExpandable .rpText,
+.RadPanelBar_TCAdmin .rpExpanded .rpText {
+background-color: transparent;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/Panelbar/Expandable.png&theme=1%3a00000000-0000-0000-0000-000000000001&tocolor=%23FFFFFF);
+padding-right: 20px;
+background-repeat: no-repeat
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpLink,
+.RadPanelBar_TCAdmin .rpGroup .rpTemplate {
+color: #000;
+background-color: transparent;
+background-image: none;
+min-height: 20px
+}
+
+* html .RadPanelBar_TCAdmin .rpGroup .rpLink {
+height: 20px
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpLink {
+background-color: transparent;
+background-image: none;
+border-bottom-width: 1px!important;
+margin: 0 1px;
+padding: 1px
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpOut {
+border-bottom: 0;
+margin-right: 3px
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpLink:hover {
+background-color: #E7F1FF;
+border: 1px solid #BCD2F1;
+padding: 0
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpLink {
+border: 1px solid transparent;
+padding: 0
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpDisabled,
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpDisabled:hover {
+color: #999;
+text-decoration: none;
+background-color: #fff;
+border: 0;
+padding: 1px
+}
+
+.RadPanelBar_TCAdmin .rpFirst .rpLink,
+.RadPanelBar_TCAdmin .rpFirst .rpExpanded {
+background-position: 0 -1px
+}
+
+.RadPanelBar_TCAdmin .rpFirst .rpFocused,
+.RadPanelBar_TCAdmin .rpFirst .rpLink:hover {
+background-position: 0 -201px
+}
+
+.RadPanelBar_TCAdmin .rpFirst .rpSelected,
+.RadPanelBar_TCAdmin .rpFirst .rpSelected:hover {
+background-position: 0 -401px
+}
+
+.RadPanelBar_TCAdmin_rtl .rpExpandable .rpText,
+.RadPanelBar_TCAdmin_rtl .rpExpanded .rpText {
+padding-left: 20px
+}
+
+.RadPanelBar_TCAdmin_rtl .rpGroup .rpText {
+padding: 0 10px
+}
+
+.RadPanelBar_TCAdmin_rtl .rpExpanded .rpText {
+background-position: 0 -178px
+}
+
+.RadPanelBar_TCAdmin .rpExpandable.rpSelected .rpText,
+.RadPanelBar_TCAdmin .rpExpandable.rpSelected:hover .rpText {
+background-position: 100% -1px
+}
+
+.RadPanelBar_TCAdmin_rtl .rpExpandable.rpSelected .rpText,
+.RadPanelBar_TCAdmin_rtl .rpExpandable.rpSelected:hover .rpText {
+background-position: 0 -337px
+}
+
+.RadPanelBar_TCAdmin_rtl .rpExpanded.rpSelected .rpText,
+.RadPanelBar_TCAdmin_rtl .rpExpanded.rpSelected:hover .rpText {
+background-position: 0 -476px
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpLink,
+.RadPanelBar_TCAdmin .rpGroup .rpLink .rpOut {
+background-position: 0 200px
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpSelected,
+.RadPanelBar_TCAdmin .rpGroup .rpSelected:hover {
+background-position: 100% -222px;
+background-color: transparent
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpExpandable .rpText,
+.RadPanelBar_TCAdmin .rpGroup .rpExpandable:hover .rpText {
+background-position: 100% -938px
+}
+
+.RadPanelBar_TCAdmin .rpGroup .rpExpanded .rpText,
+.RadPanelBar_TCAdmin .rpGroup .rpExpanded:hover .rpText {
+background-position: 100% -1078px
+}
+
+.RadPanelBar_TCAdmin_rtl .rpGroup .rpExpandable .rpText,
+.RadPanelBar_TCAdmin_rtl .rpGroup .rpExpandable:hover .rpText {
+background-position: 0 -938px
+}
+
+.RadPanelBar_TCAdmin_rtl .rpGroup .rpExpanded .rpText,
+.RadPanelBar_TCAdmin_rtl .rpGroup .rpExpanded:hover .rpText {
+background-position: 0 -1078px
+}
+
+/*********************************************************************/
+/******************************** Scheduler.css ********************************/
+/*********************************************************************/
+
+.RadScheduler_TCAdmin,
+.RadScheduler_TCAdmin a,
+.RadScheduler_TCAdmin input,
+.RadScheduler_TCAdmin select,
+.RadScheduler_TCAdmin textarea {
+color: #000;
+font: normal 12px/14px "Segoe UI", Arial, sans-serif
+}
+
+div.RadScheduler_TCAdmin .rsHeader {
+border: 1px solid #7E7E7E;
+background-color: #F5F5F5
+}
+
+.RadScheduler_TCAdmin .rsHeader .rsSelected,
+div.RadScheduler_TCAdmin .rsTopWrap .rsHeader ul a {
+margin-top: 2px;
+line-height: 24px;
+padding: 1px 1px 1px 10px
+}
+
+.RadScheduler_TCAdmin .rsHeader .rsSelected,
+div.RadScheduler_TCAdmin .rsTopWrap .rsHeader ul a:hover {
+border: 1px solid #BCD2F1;
+background-color: #399ED3;
+padding: 0 0 0 9px
+}
+
+.RadScheduler_TCAdmin div.rsHeader .rsPrevDay,
+.RadScheduler_TCAdmin div.rsHeader .rsNextDay {
+width: 20px;
+height: 20px;
+line-height: 20px
+}
+
+.RadScheduler_TCAdmin div.rsHeader .rsPrevDay {
+background-position: 0 -48px;
+margin: 5px 0 0 3px
+}
+
+.RadScheduler_TCAdmin div.rsHeader .rsNextDay {
+background-position: -20px -48px;
+margin: 5px 6px 0 0
+}
+
+.RadScheduler_TCAdmin div.rsHeader a.rsPrevDay:hover {
+background-position: -70px -48px
+}
+
+.RadScheduler_TCAdmin div.rsHeader a.rsNextDay:hover {
+background-position: -90px -48px
+}
+
+.RadScheduler_TCAdmin .rsHorizontalHeaderTable {
+color: #000;
+background: #EDEDED
+}
+
+.RadScheduler_TCAdmin .rsHorizontalHeaderWrapper {
+background: #EDEDED;
+border-color: #a7bac5
+}
+
+.RadScheduler_TCAdmin .rsVerticalHeaderTable th {
+color: #000;
+border-top: 0;
+border-color: transparent #999
+}
+
+.RadScheduler_TCAdmin .rsHorizontalHeaderTable th {
+background-color: %Scheduler.Vertical.Header.Background.Color%;
+border-color: #7c7c7c
+}
+
+.RadScheduler_TCAdmin .rsSpacerCell,
+.RadScheduler_TCAdmin .rsAllDayHeader,
+.RadScheduler_TCAdmin .rsVerticalHeaderTable .rsAllDayHeader {
+color: #000;
+border-color: #a7bac5 #999
+}
+
+.RadScheduler_TCAdmin .rsAllDayRow td,
+.RadScheduler_TCAdmin .rsContentTable .rsAllDayRow td {
+border-color: #a8a8a8;
+border-style: solid
+}
+
+.RadScheduler_TCAdmin .rsVerticalHeaderTable .rsMainHeader th {
+border-bottom-color: #A7BAC5
+}
+
+.RadScheduler_TCAdmin .rsSpacerCell,
+.RadScheduler_TCAdmin .rsContent .rsAllDayHeader {
+border-bottom-color: #999
+}
+
+.RadScheduler_TCAdmin .rsContent,
+.RadScheduler_TCAdmin .rsTopWrap .rsFooter {
+border: 1px solid #3a5168;
+border-top: 0
+}
+
+.RadScheduler_TCAdmin .rsContentTable td {
+border-bottom-style: dotted;
+border-color: #eaeaea
+}
+
+.RadScheduler_TCAdmin .rsContentTable .rsAlt td {
+border-bottom-style: solid;
+border-color: #a8a8a8 #eaeaea
+}
+
+.RadScheduler_TCAdmin .rsMonthView .rsOtherMonth {
+background-color: #F9F9F9
+}
+
+.RadScheduler_TCAdmin .rsApt .rsArrowTop,
+.RadScheduler_TCAdmin .rsApt .rsArrowBottom,
+.RadScheduler_TCAdmin .rsApt .rsArrowLeft,
+.RadScheduler_TCAdmin .rsApt .rsArrowRight,
+.RadScheduler_TCAdmin .rsApt .rsAptDelete,
+.RadScheduler_TCAdmin .rsApt .rsAptResize,
+.RadScheduler_TCAdmin .rsApt .rsAptRecurrence,
+.RadScheduler_TCAdmin .rsApt .rsAptRecurrenceException {
+background-color: transparent;
+background-image: url(../../App_Themes/Default/Controls/Rad/Scheduler/rsSprites.png);
+background-repeat: no-repeat
+}
+
+div.RadScheduler_TCAdmin .rsAptResize {
+bottom: 0
+}
+
+div.RadScheduler_TCAdmin .rsApt .rsAptDelete {
+top: 4px;
+width: 22px
+}
+
+.RadScheduler_TCAdmin .rsNonWorkHour,
+.RadScheduler_TCAdmin .rsSunCol,
+.RadScheduler_TCAdmin .rsSatCol {
+background-color: #F8F8F8
+}
+
+.RadScheduler_TCAdmin .rsAptCreate,
+.RadScheduler_TCAdmin .rsMonthView .rsAptCreate,
+.RadScheduler_TCAdmin .rsAptCreateRow2,
+.RadScheduler_TCAdmin .rsMonthView .rsAptCreateRow2,
+.RadScheduler_TCAdmin .rsAptCreateRow3,
+.RadScheduler_TCAdmin .rsMonthView .rsAptCreateRow3,
+.RadScheduler_TCAdmin .rsAptCreateRow4,
+.RadScheduler_TCAdmin .rsMonthView .rsAptCreateRow4,
+.RadScheduler_TCAdmin .rsAptCreateRow5,
+.RadScheduler_TCAdmin .rsMonthView .rsAptCreateRow5 {
+background: #E7F1FF
+}
+
+div.RadScheduler_TCAdmin .rsApt {
+background-color: #ffefbd;
+border-top: 1px solid #c98400;
+border-bottom: 1px solid #c98400;
+margin: 0
+}
+
+div.RadScheduler_TCAdmin .rsAptOut {
+border-left: 1px solid #c98400;
+border-right: 1px solid #c98400;
+overflow: hidden
+}
+
+div.RadScheduler_TCAdmin .rsAptContent,
+div.RadScheduler_TCAdmin .rsAptIn,
+div.RadScheduler_TCAdmin .rsAptMid,
+div.RadScheduler_TCAdmin .rsAptOut {
+width: auto;
+margin: 0
+}
+
+div.RadScheduler_TCAdmin .rsAptIn,
+div.RadScheduler_TCAdmin .rsAptMid,
+div.RadScheduler_TCAdmin .rsAptContent {
+border-width: 0
+}
+
+div.RadScheduler .rsCategoryBlue,
+div.RadScheduler .rsCategoryRed,
+div.RadScheduler .rsCategoryGreen,
+div.RadScheduler .rsCategoryOrange,
+div.RadScheduler .rsCategoryPink,
+div.RadScheduler .rsCategoryYellow,
+div.RadScheduler .rsCategoryViolet,
+div.RadScheduler .rsCategoryDarkRed,
+div.RadScheduler .rsCategoryDarkBlue,
+div.RadScheduler .rsCategoryDarkGreen,
+div.RadScheduler .rsAptColor {
+margin-top: 1px
+}
+
+div.RadScheduler .rsCategoryBlue,
+div.RadScheduler .rsCategoryRed,
+div.RadScheduler .rsCategoryGreen,
+div.RadScheduler .rsCategoryOrange,
+div.RadScheduler .rsCategoryPink,
+div.RadScheduler .rsCategoryYellow,
+div.RadScheduler .rsCategoryViolet,
+div.RadScheduler .rsCategoryDarkRed,
+div.RadScheduler .rsCategoryDarkBlue,
+div.RadScheduler .rsCategoryDarkGreen,
+div.RadScheduler .rsAptColor,
+.RadScheduler .rsCategoryBlue .rsAptOut,
+.RadScheduler .rsCategoryRed .rsAptOut,
+.RadScheduler .rsCategoryGreen .rsAptOut,
+.RadScheduler .rsCategoryOrange .rsAptOut,
+.RadScheduler .rsCategoryPink .rsAptOut,
+.RadScheduler .rsCategoryYellow .rsAptOut,
+.RadScheduler .rsCategoryViolet .rsAptOut,
+.RadScheduler .rsCategoryDarkRed .rsAptOut,
+.RadScheduler .rsCategoryDarkBlue .rsAptOut,
+.RadScheduler .rsCategoryDarkGreen .rsAptOut,
+.RadScheduler .rsAptColor .rsAptOut {
+border: 0;
+background: none
+}
+
+.RadScheduler .rsCategoryBlue .rsAptOut,
+.RadScheduler .rsCategoryRed .rsAptOut,
+.RadScheduler .rsCategoryGreen .rsAptOut,
+.RadScheduler .rsCategoryOrange .rsAptOut,
+.RadScheduler .rsCategoryPink .rsAptOut,
+.RadScheduler .rsCategoryYellow .rsAptOut,
+.RadScheduler .rsCategoryViolet .rsAptOut,
+.RadScheduler .rsCategoryDarkRed .rsAptOut,
+.RadScheduler .rsCategoryDarkBlue .rsAptOut,
+.RadScheduler .rsCategoryDarkGreen .rsAptOut,
+.RadScheduler .rsAptColor .rsAptOut {
+overflow: visible
+}
+
+.RadScheduler .rsCategoryBlue .rsAptIn,
+.RadScheduler .rsCategoryRed .rsAptIn,
+.RadScheduler .rsCategoryGreen .rsAptIn,
+.RadScheduler .rsCategoryOrange .rsAptIn,
+.RadScheduler .rsCategoryPink .rsAptIn,
+.RadScheduler .rsCategoryYellow .rsAptIn,
+.RadScheduler .rsCategoryViolet .rsAptIn,
+.RadScheduler .rsCategoryDarkRed .rsAptIn,
+.RadScheduler .rsCategoryDarkBlue .rsAptIn,
+.RadScheduler .rsCategoryDarkGreen .rsAptIn,
+.RadScheduler .rsAptColor .rsAptIn,
+.RadScheduler .rsCategoryBlue .rsAptMid,
+.RadScheduler .rsCategoryRed .rsAptMid,
+.RadScheduler .rsCategoryGreen .rsAptMid,
+.RadScheduler .rsCategoryOrange .rsAptMid,
+.RadScheduler .rsCategoryPink .rsAptMid,
+.RadScheduler .rsCategoryYellow .rsAptMid,
+.RadScheduler .rsCategoryViolet .rsAptMid,
+.RadScheduler .rsCategoryDarkRed .rsAptMid,
+.RadScheduler .rsCategoryDarkBlue .rsAptMid,
+.RadScheduler .rsCategoryDarkGreen .rsAptMid,
+.RadScheduler .rsAptColor .rsAptMid,
+.RadScheduler .rsCategoryBlue .rsAptContent,
+.RadScheduler .rsCategoryRed .rsAptContent,
+.RadScheduler .rsCategoryGreen .rsAptContent,
+.RadScheduler .rsCategoryOrange .rsAptContent,
+.RadScheduler .rsCategoryPink .rsAptContent,
+.RadScheduler .rsCategoryYellow .rsAptContent,
+.RadScheduler .rsCategoryViolet .rsAptContent,
+.RadScheduler .rsCategoryDarkRed .rsAptContent,
+.RadScheduler .rsCategoryDarkBlue .rsAptContent,
+.RadScheduler .rsCategoryDarkGreen .rsAptContent,
+.RadScheduler .rsAptColor .rsAptContent {
+border-width: 1px 0
+}
+
+.RadScheduler .rsCategoryBlue .rsAptIn,
+.RadScheduler .rsCategoryRed .rsAptIn,
+.RadScheduler .rsCategoryGreen .rsAptIn,
+.RadScheduler .rsCategoryOrange .rsAptIn,
+.RadScheduler .rsCategoryPink .rsAptIn,
+.RadScheduler .rsCategoryYellow .rsAptIn,
+.RadScheduler .rsCategoryViolet .rsAptIn,
+.RadScheduler .rsCategoryDarkRed .rsAptIn,
+.RadScheduler .rsCategoryDarkBlue .rsAptIn,
+.RadScheduler .rsCategoryDarkGreen .rsAptIn,
+.RadScheduler .rsAptColor .rsAptIn {
+margin-left: -1px;
+margin-right: -1px;
+border-width: 0 1px
+}
+
+div.RadScheduler .rsCategoryBlue .rsAptDelete,
+div.RadScheduler .rsCategoryRed .rsAptDelete,
+div.RadScheduler .rsCategoryGreen .rsAptDelete,
+div.RadScheduler .rsCategoryOrange .rsAptDelete,
+div.RadScheduler .rsCategoryPink .rsAptDelete,
+div.RadScheduler .rsCategoryYellow .rsAptDelete,
+div.RadScheduler .rsCategoryViolet .rsAptDelete,
+div.RadScheduler .rsCategoryDarkRed .rsAptDelete,
+div.RadScheduler .rsCategoryDarkBlue .rsAptDelete,
+div.RadScheduler .rsCategoryDarkGreen .rsAptDelete,
+div.RadScheduler .rsAptColor .rsAptDelete {
+top: 2px
+}
+
+.RadScheduler .rsCategoryBlue .rsAptMid,
+.RadScheduler .rsCategoryRed .rsAptMid,
+.RadScheduler .rsCategoryGreen .rsAptMid,
+.RadScheduler .rsCategoryOrange .rsAptMid,
+.RadScheduler .rsCategoryPink .rsAptMid,
+.RadScheduler .rsCategoryYellow .rsAptMid,
+.RadScheduler .rsCategoryViolet .rsAptMid,
+.RadScheduler .rsCategoryDarkRed .rsAptMid,
+.RadScheduler .rsCategoryDarkBlue .rsAptMid,
+.RadScheduler .rsCategoryDarkGreen .rsAptMid,
+.RadScheduler .rsAptColor .rsAptMid {
+margin: 1px
+}
+
+.RadScheduler_TCAdmin .rsMonthView .rsDateBox {
+background-color: #F4F4F4;
+border-bottom: 1px solid #E0E0E0
+}
+
+.RadScheduler_TCAdmin .rsMonthView .rsAptCreate .rsDateBox {
+background-color: #EFE6CB;
+border-bottom: 1px solid #DFD6BB
+}
+
+.RadScheduler_TCAdmin .rsMonthView .rsContentTable td {
+border-color: #eaeaea;
+border-style: solid
+}
+
+.RadScheduler_TCAdmin div.rsFooter {
+background-color: #e4e4e4;
+border-color: #999
+}
+
+.RadScheduler_TCAdmin div.rsFooter .rsFullTime {
+background-position: 0 -248px;
+background-color: transparent;
+background-image: url(../../App_Themes/Default/Controls/Rad/Scheduler/rsSprites.png);
+background-repeat: no-repeat;
+padding: 3px 0 4px 17px
+}
+
+.RadScheduler_TCAdmin div.rsFooter a.rsFullTime:hover {
+background-position: 0 -271px
+}
+
+div.RadScheduler_TCAdmin .rsAptEditFormWrapper {
+background-color: #c2c2c2;
+border: 1px solid #626262
+}
+
+.RadScheduler_TCAdmin .rsAptEditFormWrapper .rsAptEditTextareaWrapper {
+background: #fff;
+border-color: #626262
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit {
+background: #EDEDED;
+border: 1px solid #999
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit div.rsAdvTitle {
+background: #ddd;
+border-bottom: 1px solid #BBB
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit .rsInvalid textarea,
+.RadScheduler_TCAdmin .rsAdvancedEdit .rsInvalid input,
+.RadScheduler_TCAdmin .rsAdvancedEdit .rsAdvTimePicker .riEmpty {
+background-image: url(../../App_Themes/Default/Controls/Rad/'Input/sprite.gif')
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit .rsInvalid {
+color: #F32800;
+border-color: #F32800
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit h2,
+.RadScheduler_TCAdmin .rsAdvancedEdit h3 {
+color: #a45a3f
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit h2 {
+border-bottom: 1px solid #868686
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit .rsAdvRecurrenceFreq {
+border-right: 1px solid #fff
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit ul.rsRecurrenceOptionList
+/* ??? */
+
+{
+border-right: 1px solid #868686
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit div.rsAdvPatternPanel {
+border-left: 0
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit .rsAdvancedSubmitArea {
+border-color: #868686
+}
+
+div.RadScheduler_TCAdmin .rsModalWrapper .rsModalOuter {
+border: 1px solid #616161;
+background-color: #e4e4e4
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit a.rsAdvEditClose,
+.RadScheduler_TCAdmin div.rsModalWrapper .rsModalOuter .rsModalWindowClose {
+background-image: url(../../App_Themes/Default/Controls/Rad/Scheduler/rsSprites.png);
+background-color: #e4e4e4;
+background-position: -43px -528px;
+height: 17px;
+margin-top: -24px;
+width: 26px;
+opacity: 0.8;
+-moz-opacity: 0.8;
+filter: alpha(opacity=80)
+}
+
+.RadScheduler_TCAdmin .rsAdvancedEdit a.rsAdvEditClose:hover,
+.RadScheduler_TCAdmin .rsModalWrapper .rsModalOuter a.rsModalWindowClose:hover {
+opacity: 1;
+-moz-opacity: 1;
+filter: alpha(opacity=100)
+}
+
+.RadScheduler_TCAdmin .rsModalWrapper .rsModalTitle {
+color: #000;
+background-image: url(../../App_Themes/Default/Controls/Rad/Scheduler/rsSprites.png)
+}
+
+.RadScheduler_TCAdmin .rsModalWrapper .rsModalInner {
+background: #fff;
+border-color: #616161
+}
+
+.RadScheduler_TCAdmin .rsModalWrapper .rsModalInner .rsModalButtons a,
+.RadScheduler_TCAdmin .rsAdvancedEdit div.rsAdvancedSubmitArea a,
+.RadScheduler_TCAdmin .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a {
+border: 1px solid #4e4e4e;
+background-color: #8e8e8e;
+color: #fff
+}
+
+.RadScheduler_TCAdmin .rsModalWrapper .rsModalInner .rsModalButtons a:hover,
+.RadScheduler_TCAdmin .rsAdvancedEdit div.rsAdvancedSubmitArea a:hover,
+.RadScheduler_TCAdmin .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a:hover {
+border: 1px solid #ca4b0c;
+background-color: #ffa517;
+color: #892500
+}
+
+.RadScheduler_TCAdmin .rsBottomIndicator .rsOvertimeArrow {
+background: transparent url(../../App_Themes/Default/Controls/Rad/Scheduler/rsSprites.png) no-repeat -180px -31px
+}
+
+.RadScheduler_TCAdmin .rsTopIndicator .rsOvertimeArrow {
+background: transparent url(../../App_Themes/Default/Controls/Rad/Scheduler/rsSprites.png) no-repeat -134px -31px
+}
+
+/*********************************************************************/
+/******************************** SiteMap.css ********************************/
+/*********************************************************************/
+
+.RadSiteMap_TCAdmin {
+padding-left: 25px
+}
+
+.RadSiteMap_TCAdmin .rsmLink,
+.RadSiteMap_TCAdmin .rsmTemplate {
+border-bottom: 0;
+font-weight: 700;
+color: #000;
+margin-top: 15px
+}
+
+div.RadSiteMap_TCAdmin .rsmLink,
+div.RadSiteMap_TCAdmin .rsmTemplate {
+padding-left: 5px
+}
+
+.RadSiteMap_TCAdmin .rsmLevel1 .rsmLink,
+.RadSiteMap_TCAdmin .rsmLevel1 .rsmTemplate {
+color: %SideBar.Item.Text.Color%;
+border-bottom: 1px solid #45709b;
+background: none
+}
+
+.RadSiteMap_TCAdmin .rsmLevel1 .rsmLink:hover {
+color: #75A0Cb
+}
+
+.RadSiteMap_TCAdmin .rsmLevel2 .rsmLink,
+.RadSiteMap_TCAdmin .rsmLevel2 .rsmTemplate,
+.RadSiteMap_TCAdmin .rsmThreeLevels .rsmLevel1 .rsmLink,
+.RadSiteMap_TCAdmin .rsmTwoLevels .rsmLevel1 .rsmLink,
+.RadSiteMap_TCAdmin .rsmOneLevel .rsmItem .rsmLink {
+color: %SideBar.Item.Text.Color%;
+border: solid 1px #FFF!important;
+background: none;
+font-weight: 400;
+margin-top: 0
+}
+
+.RadSiteMap_TCAdmin .rsmLevel2 .rsmLink:hover,
+.RadSiteMap_TCAdmin .rsmThreeLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_TCAdmin .rsmTwoLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_TCAdmin .rsmOneLevel .rsmItem .rsmLink:hover {
+color: #000;
+background: #E7F1FF;
+border: solid 1px #BCD2F1!important
+}
+
+.RadSiteMap_TCAdmin .rsmImage {
+border: 0;
+padding-right: 3px
+}
+
+/*********************************************************************/
+/******************************** Splitter.css ********************************/
+/*********************************************************************/
+
+.FullScreenModeDisabled .RadSplitter_TCAdmin .rspResizeBar {
+border-bottom-width: 1px!important
+}
+
+.RadSplitter_TCAdmin .rspResizeBarOver,
+.RadSplitter_TCAdmin .rspSlideContainerResizeOver {
+border-right-color: #c98400
+}
+
+.RadSplitter_TCAdmin .rspResizeBarOverHorizontal,
+.RadSplitter_TCAdmin .rspSlideContainerResizeOverHorizontal {
+border-bottom-color: #c98400
+}
+
+.RadSplitter_TCAdmin .rspPaneTabContainer {
+border-color: #7c7c7c
+}
+
+.RadSplitter_TCAdmin .rspPaneTabContainerExpanded {
+background-color: #ffe79c;
+border-color: #c98400
+}
+
+.RadSplitter_TCAdmin .rspSlideTitleContainer,
+.RadSplitter_TCAdmin .rspSlideHeaderIconWrapper {
+border-bottom: solid 1px #7c7c7c
+}
+
+.RadSplitter_TCAdmin .rspSlideHeaderDockIcon,
+.RadSplitter_TCAdmin .rspSlideHeaderUndockIcon,
+.RadSplitter_TCAdmin .rspSlideHeaderCollapseIcon,
+
+/* RadSplitBar buttons */
+
+.RadSplitter_TCAdmin .rspCollapseBarExpand,
+.RadSplitter_TCAdmin .rspCollapseBarCollapse,
+.RadSplitter_TCAdmin .rspCollapseBarHorizontalExpand,
+.RadSplitter_TCAdmin .rspCollapseBarHorizontalCollapse {
+background-image: url(../../App_Themes/Default/Controls/Rad/Splitter/ExpandCollapseBarsCommands.gif);
+background-repeat: no-repeat
+}
+
+.RadSplitter_TCAdmin .rspCollapseBarCollapseOver {
+background-position: -192px 0
+}
+
+.RadSplitter_TCAdmin .rspCollapseBarExpandOver {
+background-position: -196px 0
+}
+
+.RadSplitter_TCAdmin .rspCollapseBarHorizontalExpand {
+background-position: -8px -4px
+}
+
+.RadSplitter_TCAdmin .rspCollapseBarHorizontalExpandOver {
+background-position: -8px -12px
+}
+
+.RadSplitter_TCAdmin .rspCollapseBarHorizontalCollapse {
+background-position: -8px 0
+}
+
+.RadSplitter_TCAdmin .rspCollapseBarHorizontalCollapseOver {
+background-position: -8px -8px
+}
+
+.RadSplitter_TCAdmin .rspSlideHeaderUndockIcon {
+background-position: -50px 0
+}
+
+.RadSplitter_TCAdmin .rspSlideHeaderDockIcon {
+background-position: -35px 0
+}
+
+.RadSplitter_TCAdmin .rspSlideHeaderCollapseIcon {
+background-position: -65px 0
+}
+
+.RadSplitter_TCAdmin .rspSlideTitle,
+
+/* RadSlidingPane tab text */
+
+.RadSplitter_TCAdmin .rspPaneTabText {
+font: normal 10px "Segoe UI", Arial, Sans-serif;
+color: #000
+}
+
+.RadSplitter_TCAdmin .rspSlideTitle {
+font-size: 12px
+}
+
+.RadSplitter_TCAdmin .rspPaneTabContainerExpanded .rspPaneTabText {
+color: #892500
+}
+
+/*********************************************************************/
+/******************************** TabStrip.css ********************************/
+/*********************************************************************/
+
+.RadTabStrip .rtsScroll {
+width: auto!important
+}
+
+.RadTabStrip_TCAdmin .rtsLI,
+.RadTabStrip_TCAdmin .rtsLink {
+font: 12px/26px "Segoe UI", Arial, sans-serif
+}
+
+.RadTabStripLeft_TCAdmin .rtsSeparator,
+.RadTabStripRight_TCAdmin .rtsSeparator {
+background: #828282
+}
+
+.RadTabStrip_TCAdmin .rtsDisabled {
+color: #aaa
+}
+
+.RadTabStrip_TCAdmin .rtsNextArrow,
+.RadTabStrip_TCAdmin .rtsPrevArrow,
+.RadTabStrip_TCAdmin .rtsPrevArrowDisabled,
+.RadTabStrip_TCAdmin .rtsNextArrowDisabled {
+background-image: url(../../App_Themes/Default/Controls/Rad/TabStrip/TabStripStates.png)
+}
+
+.RadTabStripLeft_TCAdmin .rtsLink,
+.RadTabStripRight_TCAdmin .rtsLink {
+background-image: url(../../App_Themes/Default/Controls/Rad/TabStrip/TabStripVStates.png)
+}
+
+.RadTabStripLeft_TCAdmin .rtsLast .rtsLink,
+.RadTabStripRight_TCAdmin .rtsLast .rtsLink {
+border-bottom: 1px solid #898C95
+}
+
+.RadTabStripTop_TCAdmin .rtsLink {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/TabStrip/TabStripStates.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23FFFFFF);
+background-position: 0 -26px;
+color: #CCC
+}
+
+.RadTabStripTop_TCAdmin .rtsOut {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/TabStrip/TabStripStates.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23FFFFFF);
+background-position: 100% -26px
+}
+
+.RadTabStripTop_TCAdmin .rtsLink:hover {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/TabStrip/TabStripStates.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23C6C6C6);
+background-position: 0 -26px;
+color: #000
+}
+
+.RadTabStripTop_TCAdmin .rtsLink:hover .rtsOut {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/TabStrip/TabStripStates.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23C6C6C6);
+background-position: 100% -26px
+}
+
+.RadTabStripTop_TCAdmin .rtsSelected,
+.RadTabStripTop_TCAdmin .rtsSelected:hover {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/TabStrip/TabStripStates.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23F5F5F5);
+background-position: 0 -26px;
+color: #000
+}
+
+.RadTabStripTop_TCAdmin .rtsSelected .rtsOut,
+.RadTabStripTop_TCAdmin .rtsSelected:hover .rtsOut {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/TabStrip/TabStripStates.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23F5F5F5);
+background-position: 100% -26px
+}
+
+.RadTabStripTop_TCAdmin_Baseline .rtsLevel {
+background-position: 0 100%;
+background-repeat: repeat-x
+}
+
+.RadTabStripBottom_TCAdmin .rtsLink:hover {
+background-position: 0 -130px
+}
+
+.RadTabStripBottom_TCAdmin .rtsLink:hover .rtsOut {
+background-position: 100% -130px
+}
+
+.RadTabStripBottom_TCAdmin .rtsSelected,
+.RadTabStripBottom_TCAdmin .rtsSelected:hover {
+background-position: 0 -156px
+}
+
+.RadTabStripBottom_TCAdmin .rtsSelected .rtsOut,
+.RadTabStripBottom_TCAdmin .rtsSelected:hover .rtsOut {
+background-position: 100% -156px
+}
+
+.RadTabStripBottom_TCAdmin_Baseline .rtsLevel {
+background-position: 0 -599px;
+background-repeat: repeat-x
+}
+
+.RadTabStripRight_TCAdmin .rtsUL .rtsLink,
+.RadTabStripRight_TCAdmin .rtsUL .rtsLI .rtsDisabled:hover {
+background-position: 100% 0;
+text-align: left
+}
+
+.TCAdmin_RightToolBarIconsContainer {
+position: absolute;
+right: 0;
+top: 0
+}
+
+.TCAdmin_RightToolBarIcons {
+padding-right: 1px;
+padding-top: 2px;
+height: 28px
+}
+
+.RadToolBar_TCAdmin .rtbOuter {
+border: 1px solid #9C9C9C
+}
+
+.RadToolBar_TCAdmin .rtbSplBtnFocused .rtbWrap,
+.RadToolBar_TCAdmin .rtbSplBtnFocused .rtbOut,
+.RadToolBar_TCAdmin .rtbSplBtnFocused .rtbMid,
+.RadToolBar_TCAdmin .rtbSplBtnFocused .rtbIn,
+.RadToolBar_TCAdmin .rtbItemFocused .rtbWrap,
+.RadToolBar_TCAdmin .rtbItemFocused .rtbOut,
+.RadToolBar_TCAdmin .rtbItemFocused .rtbMid,
+.RadToolBar_TCAdmin .rtbItemFocused .rtbIn,
+.RadToolBar_TCAdmin .rtbItemHovered .rtbWrap,
+.RadToolBar_TCAdmin .rtbItemHovered .rtbOut,
+.RadToolBar_TCAdmin .rtbItemHovered .rtbMid,
+.RadToolBar_TCAdmin .rtbItemHovered .rtbIn {
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbHoverBg.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23C6C6C6)
+}
+
+.RadToolBar_TCAdmin .rtbItemClicked .rtbWrap,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbOut,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbMid,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbIn {
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbClickedBg.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23C6C6C6)
+}
+
+.RadToolBar_TCAdmin .rtbSplBtnExpanded .rtbWrap,
+.RadToolBar_TCAdmin .rtbSplBtnExpanded .rtbOut,
+.RadToolBar_TCAdmin .rtbSplBtnExpanded .rtbMid,
+.RadToolBar_TCAdmin .rtbSplBtnExpanded .rtbIn,
+.RadToolBar_TCAdmin .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_TCAdmin .rtbDropDownExpanded .rtbOut,
+.RadToolBar_TCAdmin .rtbDropDownExpanded .rtbMid,
+.RadToolBar_TCAdmin .rtbDropDownExpanded .rtbIn,
+.RadToolBar_TCAdmin .rtbChecked .rtbWrap,
+.RadToolBar_TCAdmin .rtbChecked .rtbOut,
+.RadToolBar_TCAdmin .rtbChecked .rtbMid,
+.RadToolBar_TCAdmin .rtbChecked .rtbIn,
+.RadToolBar_TCAdmin li.rtbChecked .rtbWrap:hover,
+.RadToolBar_TCAdmin li.rtbChecked .rtbWrap:hover .rtbOut,
+.RadToolBar_TCAdmin li.rtbChecked .rtbWrap:hover .rtbMid,
+.RadToolBar_TCAdmin li.rtbChecked .rtbWrap:hover .rtbIn {
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/ToolBar/rtbActiveBg.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%23C6C6C6)
+}
+
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap {
+color: #888\9
+}
+
+.RadTreeView_TCAdmin,
+.RadTreeView_TCAdmin a.rtIn,
+.RadTreeView_TCAdmin .rtEdit .rtIn input {
+color: #000;
+font: 12px/18px "Segoe UI", Arial, sans-serif
+}
+
+.RadTreeView_TCAdmin .rtPlus,
+.RadTreeView_TCAdmin .rtMinus {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/PlusMinus.png)
+}
+
+.RadTreeView_TCAdmin .rtChecked,
+.RadTreeView_TCAdmin .rtUnchecked,
+.RadTreeView_TCAdmin .rtIndeterminate {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/TriState.png)
+}
+
+.RadTreeView_TCAdmin .rtHover .rtIn {
+color: #000;
+background-color: #e1e1e1;
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/ItemHoveredBg.png);
+border-color: #c4c4c4 #b5b5b5 #9e9e9e
+}
+
+.RadTreeView_TCAdmin .rtSelected .rtIn {
+color: #fff;
+background-color: #959595;
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/ItemSelectedBg.png);
+border-color: #8d8d8d #7e7e7e #6c6c6c
+}
+
+.RadTreeView_TCAdmin .rtLoadingIcon {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/LoadingIcon.gif)
+}
+
+.RadTreeView_TCAdmin .rtLI .rtEdit .rtIn {
+background: #fff;
+border-color: #6c6c6c
+}
+
+.RadTreeView_TCAdmin .rtLines .rtLI,
+.RadTreeView_TCAdmin .rtLines .rtFirst .rtUL {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/NodeSpan.png)
+}
+
+.RadTreeView_TCAdmin_rtl .rtLines .rtLI,
+.RadTreeView_TCAdmin_rtl .rtLines .rtFirst .rtUL {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/NodeSpan_rtl.png)
+}
+
+.RadTreeView_TCAdmin .rtLines .rtFirst,
+.RadTreeView_TCAdmin .rtLines .rtFirst .rtUL {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/FirstNodeSpan.png)
+}
+
+.RadTreeView_TCAdmin_rtl .rtLines .rtFirst,
+.RadTreeView_TCAdmin_rtl .rtLines .rtFirst .rtUL {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/FirstNodeSpan_rtl.png)
+}
+
+.RadTreeView_TCAdmin .rtLines .rtTop {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/TopLine.png)
+}
+
+.RadTreeView_TCAdmin_rtl .rtLines .rtTop {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/TopLine_rtl.png)
+}
+
+.RadTreeView_TCAdmin .rtLines .rtMid {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/MiddleLine.png)
+}
+
+.RadTreeView_TCAdmin_rtl .rtLines .rtMid {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/MiddleLine_rtl.png)
+}
+
+.RadTreeView_TCAdmin .rtLines .rtBot {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/BottomLine.png)
+}
+
+.RadTreeView_TCAdmin_rtl .rtLines .rtBot {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/BottomLine_rtl.png)
+}
+
+.RadTreeView_TCAdmin .rtLines .rtLast .rtTop {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/SingleLine.png)
+}
+
+.RadTreeView_TCAdmin_rtl .rtLines .rtLast .rtTop {
+background-image: url(../../App_Themes/Default/Controls/Rad/TreeView/SingleLine_rtl.png)
+}
+
+/*********************************************************************/
+/******************************** Widget.css ********************************/
+/*********************************************************************/
+
+.RadDock_TCAdmin fieldset {
+border: .09em solid #CCC;
+margin-bottom: 5px
+}
+
+.ie .RadDock_TCAdmin fieldset {
+margin-left: 2px;
+margin-right: 2px;
+padding: 3px 6px 8px
+}
+
+.RadDock_TCAdmin fieldset legend {
+color: #30519C
+}
+
+div.RadDock_TCAdmin table.rdTable tr.rdTop td.rdLeft {
+border-left: solid 1px #9E9E9E;
+border-top: solid 1px #9E9E9E;
+border-bottom: solid 1px #9E9E9E;
+background-color: #F2F2F2
+}
+
+div.RadDock_TCAdmin table.rdTable tr.rdTop td.rdCenter {
+border-top: solid 1px #9E9E9E;
+border-bottom: solid 1px #9E9E9E;
+background-color: #F2F2F2
+}
+
+div.RadDock_TCAdmin table.rdTable tr.rdTop td.rdRight {
+border-right: solid 1px #9E9E9E;
+border-top: solid 1px #9E9E9E;
+border-bottom: solid 1px #9E9E9E;
+background-color: #F2F2F2
+}
+
+div.RadDock_TCAdmin table.rdTable tr td.rdLeft {
+width: 2px;
+background-color: #FFF;
+border-left: solid 1px #9E9E9E
+}
+
+div.RadDock_TCAdmin table.rdTable tr td.rdRight {
+width: 2px;
+background-color: #FFF;
+border-right: solid 1px #9E9E9E
+}
+
+div.RadDock_TCAdmin table.rdTable tr.rdBottom td.rdLeft {
+border-left: solid 1px #9E9E9E;
+border-bottom: solid 1px #9E9E9E;
+background-color: #FFF
+}
+
+div.RadDock_TCAdmin table.rdTable tr.rdBottom td.rdCenter {
+border-bottom: solid 1px #9E9E9E;
+background-color: #FFF
+}
+
+div.RadDock_TCAdmin table.rdTable tr.rdBottom td.rdRight {
+border-right: solid 1px #9E9E9E;
+border-bottom: solid 1px #9E9E9E;
+background-color: #FFF
+}
+
+.RadDock_TCAdmin .rdCenter .rdCommands a span {
+background-image: url(../../App_Themes/Default/Controls/Rad/Dock/CommandSprite.gif)
+}
+
+/*********************************************************************/
+/******************************** Window.css ********************************/
+/*********************************************************************/
+
+.RadWContentFrame {
+scrollbar-face-color: #BACBF4;
+scrollbar-highlight-color: #FFF;
+scrollbar-shadow-color: #7E9FD2;
+scrollbar-3dlight-color: #E6EEFC;
+scrollbar-arrow-color: #4D6185;
+scrollbar-track-color: #F7F7F3;
+scrollbar-darkshadow-color: #C6D1DC
+}
+
+.RadWStatus {
+height: 19px;
+background: #FFF url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWStatus.gif) repeat-x
+}
+
+.RadWModalImage {
+background: url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/Img/ModalImageBg.gif)
+}
+
+.RadWStatusRow {
+background-color: #f7f7f7
+}
+
+.RadWStatus input {
+font: normal 10px Arial, Verdana, Sans-Serif!important;
+cursor: default;
+color: #a5a5a5;
+margin-top: 2px
+}
+
+.RadWDragHelper {
+border: solid 1px solid #ccc;
+background: #ccc;
+filter: progid: DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+position: absolute;
+z-index: 50000;
+overflow: hidden;
+margin: 0;
+padding: 0
+}
+
+.RadWMinimizedPageLoaded {
+width: 60px;
+height: 24px;
+border: solid 1px #ccc;
+background: url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWWrapperHeaderCenter.gif) repeat-x
+}
+
+.RadWMinimizedActive,
+.RadWMinimizedOver {
+width: 60px;
+height: 24px;
+border: solid 1px #ccc;
+background: transparent url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWWrapperHeaderCenter.gif) repeat-x
+}
+
+.RadWMinimizedInactive {
+border: solid 1px #ccc;
+background: #f3ba0f url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWWrapperHeaderCenter.gif) repeat-x;
+width: 60px;
+height: 24px;
+filter: progid: DXImageTransform.Microsoft.Alpha(opacity=63);
+-moz-opacity: 0.6;
+opacity: 0.6
+}
+
+.RadWLoadingWrapper {
+width: 80px;
+height: 100%;
+vertical-align: middle;
+text-align: center;
+font: normal 11px Verdana, Arial, Sans-Serif;
+filter: progid: DXImageTransform.Microsoft.Alpha(opacity=99)
+}
+
+.RadWIcon {
+cursor: default;
+vertical-align: middle;
+margin: 0 2px
+}
+
+.RadWTitleText {
+font: bold 10px Verdana, Arial, Sans-Serif;
+color: #666;
+vertical-align: top;
+padding-left: 4px
+}
+
+.RadWButton {
+cursor: pointer;
+vertical-align: top
+}
+
+.RadWWrapperActive {
+background-color: #FFF;
+font-size: 0;
+border-top: solid 1px #e5e5e5;
+border-right: solid 2px #e5e5e5;
+border-left: solid 1px #e5e5e5;
+border-bottom: solid 2px #e5e5e5
+}
+
+.RadWWrapperInactive {
+background-color: #FFF;
+font-size: 0;
+border-top: solid 1px #e5e5e5;
+border-right: solid 2px #e5e5e5;
+border-left: solid 1px #e5e5e5;
+border-bottom: solid 2px #e5e5e5;
+filter: progid: DXImageTransform.Microsoft.Alpha(opacity=90);
+-moz-opacity: 0.9;
+opacity: 0.9
+}
+
+.RadWWrapperModal {
+border-right: solid 1px #404040;
+border-bottom: solid 1px #404040;
+border-left: solid 1px #d4d0c8;
+border-top: solid 1px #d4d0c8;
+font-size: 0
+}
+
+.RadWTitleRow {
+cursor: default
+}
+
+.RadWHeaderTopResizer {
+height: 3px;
+font-size: 0;
+background: #FFF url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWWrapperHeaderCenter.gif) repeat-x top
+}
+
+.RadWWrapperHeaderCenter {
+height: 22px;
+text-align: left;
+background: #FFF url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWWrapperHeaderCenter.gif) repeat-x bottom
+}
+
+.RadWWrapperBodyCenter {
+width: 100%;
+height: 100%
+}
+
+.RadWWrapperFooterLeft,
+.RadWWrapperFooterCenter,
+.RadWWrapperFooterRight {
+font-size: 0;
+background: #FFF;
+height: 3px
+}
+
+.LoginMainBody {
+background: url(https://www.streamline-servers.com/images/tcadmin/bg1.jpg) no-repeat center center fixed;
+background-size: cover;
+-o-background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover
+}
+
+div#rightcol,
+div#leftcol {
+background: none;
+display: none;
+width: 0;
+height: 0
+}
+
+.TCAdmin_VerticalSpacer,
+.SessionInfo .RowSpacer {
+height: 8px
+}
+
+.TCAdmin_CenteredText,
+.Table .Centered {
+text-align: center
+}
+
+.no_js,
+.js .has_js {
+display: block
+}
+
+.has_js,
+.js .no_js,
+.MobileEnabled .Main .Header .Sub .RoundedLeft,
+.MobileEnabled .Main .Header .Sub .RoundedRight,
+.SideBarDisabled .Main .Header .Sub .Info span,
+.SideBarDisabled .Main .Header .Sub .Info .HideSideBar {
+display: none
+}
+
+.TCAdmin_ForceHidden,
+.RadTabStrip .rtsPrevArrowDisabled,
+.RadTabStrip .rtsNextArrowDisabled,
+.RadTabStrip .rtsPrevArrow,
+.RadTabStrip .rtsNextArrow {
+display: none!important
+}
+
+div#centercol,
+.FullScreenMode div#leftcol,
+.FullScreenMode div#centercol,
+.FullScreenMode .Main,
+.Footer .Spacer .Border,
+.TCAdmin_MultiPageScroller,
+.TCAdmin_MultiPageScrollerWrapper {
+height: 100%
+}
+
+div#push,
+.Footer .Spacer {
+height: 115px
+}
+
+.CustomHtmlHeader .Main .BreadCrumb,
+.FullScreenMode .Footer .Spacer table {
+border-top: 0
+}
+
+.FullScreenModeDisabled .Icons .RadToolBar UL,
+.MobileEnabled .RadToolBar,
+.MobileEnabled .RadToolBar .rtbUL,
+.MobileEnabled .RadToolBar .rtbItem,
+.MobileEnabled .RadToolBar .rtbTemplate,
+.MobileEnabled .RadToolBar .rtbWrap,
+.MobileEnabled .RadToolBar .rtbOut,
+.MobileEnabled .RadToolBar .rtbMid,
+.MobileEnabled .RadToolBar .rtbIn {
+white-space: normal!important
+}
+
+.Notifications a,
+.Notifications a:hover,
+.TCAdmin_ErrorLabel {
+color: red
+}
+
+.UpdateNotification .Close,
+.DebugConsole .Close {
+width: 13px;
+height: 11px;
+background: #FFF url(../../App_Themes/Default/../../Interface/Base/Images/Close.png) no-repeat;
+cursor: pointer
+}
+
+#progressDisplayCenterer body,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmGroupColumn .rmItem,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrap .rmVertical,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrap .rmVertical,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer .rmGroup,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrap .rmItem,
+* html .rmRoundedCorners_BreadCrumb .rmHorizontal .rmItem,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrap .rmVertical,
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap:hover,
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap:hover .rtbOut,
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap:hover .rtbMid,
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap:hover .rtbIn,
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpDisabled,
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpDisabled:hover,
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpDisabled:hover .rpOut,
+.RadScheduler_TCAdmin .rsMonthView .rsAptCreate,
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap:hover,
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap:hover .rtbOut,
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap:hover .rtbMid,
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap:hover .rtbIn,
+.RadTreeView_TCAdmin .rtLines .rtLast,
+.RadTreeView_TCAdmin .rtLines .rtLast .rtUL {
+background-image: none
+}
+
+#barTd,
+.gecko .rsHorizontalHeaderTable,
+.gecko .rsContentTable,
+.chrome .rsHorizontalHeaderTable,
+.chrome .rsContentTable {
+width: 100%
+}
+
+.ProgressDisplay,
+.LabelBold,
+.Centered .Label {
+font-weight: 700
+}
+
+.opera .TCAdmin_MultiPageScroller,
+.opera .TCAdmin_MultiPageScrollerWrapper {
+height: auto
+}
+
+/*********************************************************************/
+/******************************** DynamicForm.css ********************************/
+/*********************************************************************/
+
+.DynamicFormRepeatSection,
+.RadScheduler_TCAdmin .rsMonthView,
+.RadDock_TCAdmin .rdMiddle .rdCenter,
+.RadDock_TCAdmin .rdBottom .rdCenter {
+background-color: #FFF
+}
+
+.DynamicFormRepeatSectionAlt,
+.FullScreenMode .RadGrid_TCAdmin {
+background-color: #F2F2F2
+}
+
+/*********************************************************************/
+/******************************** GridEdit.css ********************************/
+/*********************************************************************/
+/*  --------------  */
+/*  Grid edit item  */
+/*  --------------  */
+
+.GridEditItem td,
+.RadPanelBar_TCAdmin .rpGroup .rpItem .rpDisabled:hover .rpOut {
+border-bottom: 0
+}
+
+/*********************************************************************/
+/******************************** HyperLink.css ********************************/
+/*********************************************************************/
+
+.HyperLinkCommand:hover,
+.Alert .HyperLink,
+.Alert .HyperLinkCommand {
+text-decoration: none;
+color: #000
+}
+
+.Alert .HyperLink:hover,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel2 .rtsSelected,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel3 .rtsSelected,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel4 .rtsSelected {
+text-decoration: underline
+}
+
+.Widgets td,
+.LoginTable td,
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmLink:hover,
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmFocused,
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmSelected,
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmExpanded,
+.RadMenu_BreadCrumb .rmGroup .rmItem a.rmExpanded:hover,
+.RadGrid_TCAdmin .rgGroupPanel td td {
+padding: 0
+}
+
+.RadMenu_BreadCrumb .rmItem a.rmLink:hover,
+.RadMenu_BreadCrumb .rmItem a.rmFocused,
+.RadMenu_BreadCrumb .rmItem a.rmSelected,
+.RadMenu_BreadCrumb .rmItem a.rmExpanded,
+.RadMenu_BreadCrumb .rmItem a.rmExpanded:hover {
+background: #E7F1FF;
+border: 1px solid #BCD2F1;
+padding: 0 11px
+}
+
+.RadMenu_BreadCrumb .rmTopFix,
+.RadMenu_BreadCrumb .rmBottomFix,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_BreadCrumb .rmRoundedCorners li.rmFirstGroupColumn .rmItem,
+.RadMenu_BreadCrumb .rmRoundedCorners ul.rmHorizontal .rmFirst,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners ul.rmHorizontal .rmFirst,
+* html .rmRoundedCorners_BreadCrumb .rmGroup .rmItem,
+* html .rmRoundedCorners_BreadCrumb ul.rmHorizontal .rmFirst {
+background: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmDropDownStripe.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C);
+background-color: #FFF;
+background-repeat: repeat-y;
+background-position: -3px 0
+}
+
+.RadMenu_BreadCrumb .rmRoundedCorners .rmGroupColumn,
+.RadMenu_BreadCrumb .rmTopArrow,
+.RadMenu_BreadCrumb .rmBottomArrow,
+.RadMenu_BreadCrumb .rmLeftArrow,
+.RadMenu_BreadCrumb .rmRightArrow,
+*+html .RadGrid_TCAdmin .rgEditRow .rgSorted,
+* html .RadGrid_TCAdmin .rgEditRow .rgSorted,
+.RadSplitter_TCAdmin .rspPaneTabContainerDocked,
+.RadSplitter_TCAdmin .rspSlideContent {
+background-color: #fff
+}
+
+.RadMenu_BreadCrumb .rmBottomLeft,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners ul.rmGroup,
+.RadMenu_BreadCrumb .rmRoundedCorners ul.rmGroup,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmMultiColumn,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer,
+* html .rmRoundedCorners_BreadCrumb .rmGroup ul.rmGroup,
+* html .rmRoundedCorners_BreadCrumb ul.rmGroup {
+background-image: url(../../App_Themes/Default/Controls/Rad/../../../../Interface/Base/ColorChange.ashx?img=Controls/Rad/BreadCrumb/rmRoundedLeft.png&theme=1%3a00000000-0000-0000-0000-000000000001&fromcolor=%23FFFFFF&tocolor=%2371AC1C);
+background-color: transparent;
+background-repeat: no-repeat
+}
+
+.RadMenu_BreadCrumb .rmTopFix,
+.RadMenu_BreadCrumb .rmBottomFix,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmGroup .rmFirst,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmGroup .rmFirst,
+.rmRoundedCorners_BreadCrumb .rmGroup .rmFirst,
+.RadScheduler_TCAdmin .rsAdvancedEdit .rsAdvInput,
+.RadScheduler_TCAdmin .rsAdvancedEdit select,
+.RadScheduler_TCAdmin .rsAdvancedEdit .textareaWrapper {
+border-color: #616161
+}
+
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer .rmBottomFix,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomFix,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer .rmTopFix,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer .rmBottomFix,
+.RadGrid_TCAdmin .rgDataDiv,
+.RadGrid_TCAdmin .rgRow,
+iframe.RadWContentFrame {
+background: #FFF
+}
+
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer .rmRightArrow,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer .rmRightArrow,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer .rmTopArrow,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer .rmBottomArrow,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer .rmLeftArrow,
+* html .rmRoundedCorners_BreadCrumb .rmScrollWrapContainer .rmRightArrow {
+background-color: #FFF;
+border: 0
+}
+
+.RadMenu_BreadCrumb li.rmTopFix,
+.RadMenu_BreadCrumb li.rmBottomFix,
+.RadSplitter_TCAdmin .rspCollapseBarExpand {
+background-position: -4px 0
+}
+
+.RadMenu_BreadCrumb_rtl li.rmTopFix,
+.RadMenu_BreadCrumb_rtl li.rmBottomFix,
+.RadMenu_BreadCrumb_rtl .rmRoundedCorners .rmGroup .rmItem,
+.rmRoundedCorners.RadMenu_BreadCrumb_Context_rtl .rmGroup .rmItem,
+.RadMenu_BreadCrumb_rtl .rmGroup,
+.RadMenu_BreadCrumb_rtl .rmGroup .rmVertical {
+background-position: 101% 0
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmHorizontal,
+.RadScheduler_TCAdmin textarea,
+.RadScheduler_TCAdmin .rsContent,
+.RadScheduler_TCAdmin .rsAptEditFormWrapper .rsAptEditTextareaWrapper textarea,
+.RadScheduler_TCAdmin .rsAdvancedEdit .textareaWrapper,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel2,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel3,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel4 {
+background: #fff
+}
+
+.RadMenu_BreadCrumb .rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.RadMenu_BreadCrumb_Context.rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.rmRoundedCorners_BreadCrumb .rmScrollWrapContainer li.rmItem,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel2 .rtsLink,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel2 .rtsOut,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel2 .rtsIn,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel3 .rtsLink,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel3 .rtsOut,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel3 .rtsIn,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel4 .rtsLink,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel4 .rtsOut,
+.RadTabStrip_TCAdmin_SimpleSubItems .rtsLevel4 .rtsIn {
+background: none
+}
+
+* html .RadMenu .rmGroup .rmItem .rmLeftImage,
+*+html .RadMenu .rmGroup .rmItem .rmLeftImage {
+margin: 2px 0 0 3px
+}
+
+.RadMenu_BreadCrumb .rmGroup .rmExpandRight,
+.RadComboBox_TCAdmin td.rcbInputCellRight,
+.RadComboBox_TCAdmin .rcbHovered .rcbInputCellRight,
+.RadComboBox_TCAdmin .rcbFocused .rcbInputCellRight,
+.RadPanelBar_TCAdmin .rpExpandable .rpText,
+.RadTabStripRight_TCAdmin .rtsLink,
+.RadTabStripRight_TCAdmin .rtsLI .rtsDisabled:hover,
+.RadTabStripTop_TCAdmin .rtsDisabled:hover .rtsOut {
+background-position: 100% 0
+}
+
+.RadMenu_BreadCrumb .rmScrollWrap .rmVertical,
+.RadGrid_TCAdmin .rgCommandTable {
+border: 0
+}
+
+.RadComboBox_TCAdmin .rcbInputCellLeft,
+.RadComboBox_TCAdmin .rcbInputCellRight,
+.RadComboBox_TCAdmin .rcbArrowCellLeft,
+.RadComboBox_TCAdmin .rcbArrowCellRight,
+.RadComboBoxDropDown_TCAdmin .rcbHeader,
+.RadComboBoxDropDown_TCAdmin .rcbFooter,
+.RadComboBoxDropDown_TCAdmin .rcbMoreResults a {
+background-image: url(../../App_Themes/Default/Controls/Rad/ComboBox/rcbSprite.png)
+}
+
+* html .RadComboBox_TCAdmin .rcbInputCellLeft,
+* html .RadComboBox_TCAdmin .rcbInputCellRight,
+* html .RadComboBox_TCAdmin .rcbArrowCellLeft,
+* html .RadComboBox_TCAdmin .rcbArrowCellRight,
+* html .RadComboBoxDropDown_TCAdmin .rcbHeader,
+* html .RadComboBoxDropDown_TCAdmin .rcbFooter,
+* html .RadComboBoxDropDown_TCAdmin .rcbMoreResults a {
+background-image: url(../../App_Themes/Default/Controls/Rad/ComboBox/rcbSpriteIE6.png)
+}
+
+.RadComboBox_TCAdmin td.rcbInputCellLeft,
+.RadComboBox_TCAdmin .rcbHovered .rcbInputCellLeft,
+.RadComboBox_TCAdmin .rcbFocused .rcbInputCellLeft,
+.RadGrid_TCAdmin .rgExpXLS,
+.RadListBox_TCAdmin .rlbMoveUp .rlbButtonText,
+.RadPanelBar_TCAdmin .rpLink,
+.RadPanelBar_TCAdmin .rpExpanded,
+.RadPanelBar_TCAdmin .rpDisabled,
+.RadPanelBar_TCAdmin .rpDisabled:hover,
+.RadPanelBar_TCAdmin .rpDisabled:hover .rpOut,
+.RadPanelBar_TCAdmin_rtl .rpExpandable .rpText,
+.RadPanelBar_TCAdmin .rpGroup .rpLink:hover .rpOut,
+.RadPanelBar_TCAdmin .rpGroup .rpFocused .rpOut,
+.RadSplitter_TCAdmin .rspCollapseBarCollapse,
+.RadTabStripTop_TCAdmin .rtsDisabled:hover {
+background-position: 0 0
+}
+
+.RadComboBox_TCAdmin .rcbHovered .rcbReadOnly td.rcbInputCellRight,
+.RadPanelBar_TCAdmin .rpGroup .rpLink:hover,
+.RadPanelBar_TCAdmin .rpGroup .rpFocused {
+background-position: 100% -22px
+}
+
+.RadComboBox_TCAdmin .rcbInputCell .rcbEmptyMessage,
+.RadComboBox_TCAdmin .rcbDisabled .rcbInputCell .rcbInput,
+.RadComboBoxDropDown_TCAdmin .rcbDisabled {
+color: #a7a7a7
+}
+
+.RadComboBox_TCAdmin td.rcbArrowCellLeft,
+.RadComboBox_TCAdmin .rcbReadOnly td.rcbArrowCellLeft {
+background-position: -18px -88px
+}
+
+.RadComboBox_TCAdmin .rcbHovered .rcbArrowCellLeft,
+.RadComboBox_TCAdmin .rcbHovered .rcbReadOnly .rcbArrowCellLeft {
+background-position: -54px -88px
+}
+
+.RadComboBox_TCAdmin .rcbFocused .rcbArrowCellLeft,
+.RadComboBox_TCAdmin .rcbFocused .rcbReadOnly .rcbArrowCellLeft {
+background-position: -90px -88px
+}
+
+.RadComboBox_TCAdmin td.rcbArrowCellHidden,
+.RadComboBox_TCAdmin .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_TCAdmin .rcbFocused td.rcbArrowCellHidden,
+.RadComboBox_TCAdmin .rcbReadOnly td.rcbArrowCellHidden {
+background-position: -15px -88px
+}
+
+.RadGrid_TCAdmin .rgHeader,
+.RadGrid_TCAdmin .rgHeader a,
+.RadGrid_TCAdmin th.rgSorted,
+.RadGrid_TCAdmin th.rgSorted a,
+.RadGrid_TCAdmin .rgRow a,
+.RadGrid_TCAdmin .rgAltRow a,
+.RadGrid_TCAdmin tr.rgEditRow a,
+.RadGrid_TCAdmin .rgFooter a,
+.RadGrid_TCAdmin .rgEditForm a,
+.RadGrid_TCAdmin .rgRow span,
+.RadGrid_TCAdmin .rgAltRow span,
+.RadGrid_TCAdmin tr.rgEditRow span,
+.RadGrid_TCAdmin .rgFooter span,
+.RadGrid_TCAdmin .rgEditForm span,
+.RadGrid_TCAdmin .rgInfoPart,
+.RadListBox_TCAdmin .rlbButton .rlbButtonText,
+.RadListBox_TCAdmin .rlbButton:hover .rlbButtonText,
+.RadToolBar_TCAdminPageIcons .rtbItemFocused .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbItemHovered .rtbWrap,
+.RadPanelBar_TCAdmin .rpGroup .rpLink .rpText:hover,
+.RadScheduler_TCAdmin .rsHeader,
+.RadScheduler_TCAdmin .rsHeader a,
+.RadToolBar_TCAdmin .rtbItemFocused .rtbWrap,
+.RadToolBar_TCAdmin .rtbItemHovered .rtbWrap,
+.RadDock_TCAdmin .rdContent,
+.RadDock_TCAdmin em {
+color: #000
+}
+
+.RadGrid_TCAdmin .rgAltRow,
+.RadGrid_TCAdmin .rgFooterDiv,
+.RadGrid_TCAdmin .rgFooter,
+.RadGrid_TCAdmin .rgFilterRow {
+background: #F2F2F2
+}
+
+.RadGrid_TCAdmin .rgSelectedRow .rgSorted,
+.RadGrid_TCAdmin .rgActiveRow .rgSorted,
+.RadGrid_TCAdmin .rgHoveredRow .rgSorted,
+.RadGrid_TCAdmin .rgEditRow .rgSorted,
+.RadTabStripTop_TCAdmin .rtsLevel {
+background-color: transparent
+}
+
+*+html .RadGrid_TCAdmin .rgActiveRow .rgSorted,
+*+html .RadGrid_TCAdmin .rgHoveredRow .rgSorted,
+* html .RadGrid_TCAdmin .rgActiveRow .rgSorted,
+* html .RadGrid_TCAdmin .rgHoveredRow .rgSorted {
+background-color: #ffe79c
+}
+
+.RadGrid_TCAdmin .rgPager,
+.TCAdmin_GridAlternatingRow {
+background: #F2F2F2;
+color: #000
+}
+
+.RadGrid_TCAdmin .rgPageFirst,
+.RadGridRTL_TCAdmin .rgPageLast {
+background-position: 0 -550px
+}
+
+.RadGrid_TCAdmin .rgPageFirst:hover,
+.RadGridRTL_TCAdmin .rgPageLast:hover {
+background-position: 0 -600px
+}
+
+.RadGrid_TCAdmin .rgPagePrev,
+.RadGridRTL_TCAdmin .rgPageNext {
+background-position: 0 -700px
+}
+
+.RadGrid_TCAdmin .rgPagePrev:hover,
+.RadGridRTL_TCAdmin .rgPageNext:hover {
+background-position: 0 -750px
+}
+
+.RadGrid_TCAdmin .rgPageNext,
+.RadGridRTL_TCAdmin .rgPagePrev {
+background-position: 0 -850px
+}
+
+.RadGrid_TCAdmin .rgPageNext:hover,
+.RadGridRTL_TCAdmin .rgPagePrev:hover {
+background-position: 0 -900px
+}
+
+.RadGrid_TCAdmin .rgPageLast,
+.RadGridRTL_TCAdmin .rgPageFirst {
+background-position: 0 -1000px
+}
+
+.RadGrid_TCAdmin .rgPageLast:hover,
+.RadGridRTL_TCAdmin .rgPageFirst:hover {
+background-position: 0 -1050px
+}
+
+.GridReorderBottom_TCAdmin,
+.RadGrid_TCAdmin .rgExpDOC,
+.RadListBox_TCAdmin .rlbDelete .rlbButtonText {
+background-position: 0 -50px
+}
+
+.RadGrid_TCAdmin .rgFilter,
+.RadListBox_TCAdmin .rlbMoveToBottom .rlbButtonText {
+background-position: 0 -300px
+}
+
+.RadGrid_TCAdmin .rgDetailTable,
+.RadScheduler_TCAdmin .rsVerticalHeaderTable .rsAlt th,
+.RadSplitter_TCAdmin,
+.RadSplitter_TCAdmin .rspPaneTabContainer,
+
+/* Vertical RadSplitter items */
+
+.RadSplitter_TCAdmin .rspPane,
+.RadSplitter_TCAdmin .rspResizeBar,
+.RadSplitter_TCAdmin .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+
+.RadSplitter_TCAdmin .rspPaneHorizontal,
+.RadSplitter_TCAdmin .rspResizeBarHorizontal,
+.RadSplitter_TCAdmin .rspSlideContainerResizeHorizontal {
+border-color: #999
+}
+
+.RadGrid_TCAdmin .rgExpPDF,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferFrom .rlbButtonText {
+background-position: 0 -100px
+}
+
+.RadGrid_TCAdmin .rgExpCSV,
+.RadListBox_TCAdmin .rlbButtonAreaRight .rlbTransferAllTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaLeft .rlbTransferAllFrom .rlbButtonText {
+background-position: 0 -150px
+}
+
+.RadListBox_TCAdmin .rlbDisabled .rlbText,
+.RadListBox_TCAdmin .rlbDisabled .rlbButtonText,
+.RadListBox_TCAdmin .rlbDisabled:hover .rlbButtonText {
+color: #777
+}
+
+.RadListBox_TCAdmin .rlbButtonAreaBottom .rlbTransferTo .rlbButtonText,
+.RadListBox_TCAdmin .rlbButtonAreaTop .rlbTransferFrom .rlbButtonText,
+.RadPanelBar_TCAdmin .rpFocused,
+.RadPanelBar_TCAdmin .rpLink:hover,
+.RadPanelBar_TCAdmin .rpExpanded:hover,
+.RadPanelBar_TCAdmin .rpGroup .rpSelected .rpOut,
+.RadPanelBar_TCAdmin .rpGroup .rpSelected:hover .rpOut {
+background-position: 0 -200px
+}
+
+.FullScreenModeDisabled .TCAdmin_PageIcon span,
+.FullScreenMode .TCAdmin_PageIcon span {
+width: 140px;
+white-space: normal
+}
+
+.RadToolBar_TCAdminPageIcons_Vertical .rtbMiddle,
+.RadToolBar_TCAdmin_Vertical .rtbMiddle {
+background: #fafafa url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbVerticalControlBg.png) repeat-y 100% 0
+}
+
+.RadToolBar_TCAdminPageIcons .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbTemplate,
+.RadToolBar_TCAdmin .rtbWrap,
+.RadToolBar_TCAdmin .rtbTemplate {
+font: normal 12px/20px "Segoe UI", Arial, sans-serif;
+color: #000
+}
+
+.RadToolBar_TCAdminPageIcons .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnExpanded .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbChecked .rtbWrap,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbWrap,
+.RadScheduler_TCAdmin .rsHeader a:hover,
+.RadScheduler_TCAdmin .rsHeader em,
+.RadToolBar_TCAdmin .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_TCAdmin .rtbSplBtnExpanded .rtbWrap,
+.RadToolBar_TCAdmin .rtbChecked .rtbWrap,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbWrap {
+color: #FFF
+}
+
+.RadToolBar_TCAdminPageIcons .rtbSplBtn .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbItem .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbSplBtn .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbItem .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbDropArrows.png)
+}
+
+* html .RadToolBar_TCAdminPageIcons .rtbSplBtn .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbItem .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbSplBtn .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbItem .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbDropArrows.gif)
+}
+
+.RadToolBar_TCAdminPageIcons .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbExpandUp .rtbVOriented .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbUpArrows.png)
+}
+
+* html .RadToolBar_TCAdminPageIcons .rtbExpandUp .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbExpandUp .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbExpandUp .rtbVOriented .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbUpArrows.gif)
+}
+
+.RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbSplBtnClicked .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbChoiceArrow {
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbClickedDropArrows.png)
+}
+
+* html .RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbSplBtnClicked .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbItemClicked .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbClickedDropArrows.gif)
+}
+
+.RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbSplBtnClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbItemClicked .rtbExpandUp .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbClickedUpArrows.png)
+}
+
+* html .RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdminPageIcons .rtbItemClicked .rtbExpandUp .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbSplBtnClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbItemClicked .rtbExpandUp .rtbVOriented .rtbChoiceArrow,
+* html .RadToolBar_TCAdmin .rtbItemClicked .rtbExpandUp .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbClickedUpArrows.gif)
+}
+
+.RadToolBar_TCAdminPageIcons_Horizontal li.rtbSeparator,
+.RadToolBar_TCAdmin_Horizontal li.rtbSeparator {
+border-left: 1px solid #939393;
+background: #f7f7f7
+}
+
+.RadToolBar_TCAdminPageIcons_Vertical li.rtbSeparator,
+.RadToolBar_TCAdmin_Vertical li.rtbSeparator {
+border-top: 1px solid #939393;
+background: #f7f7f7
+}
+
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbDisabled .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbDropArrows.gif)\9
+}
+
+.RadPanelBar_TCAdmin .rpFirst .rpLink,
+.RadPanelBar_TCAdmin .rpFirst .rpLink:hover {
+background: #71AC1C
+}
+
+.RadPanelBar_TCAdmin .rpOut,
+.RadPanelBar_TCAdmin .rpDisabled .rpOut,
+.RadPanelBar_TCAdmin .rpDisabled:hover .rpOut {
+border-color: #89aee5
+}
+
+.RadPanelBar_TCAdmin .rpDisabled,
+.RadPanelBar_TCAdmin .rpDisabled:hover,
+.RadTreeView_TCAdmin_disabled .rtIn,
+.RadTreeView_TCAdmin .rtDisabled .rtIn {
+color: #ccc
+}
+
+.RadPanelBar_TCAdmin .rpExpanded .rpText,
+.RadPanelBar_TCAdmin .rpExpanded.rpSelected .rpText,
+.RadPanelBar_TCAdmin .rpExpanded.rpSelected:hover .rpText {
+background-position: 100% -178px
+}
+
+.RadScheduler .rsHeader,
+.RadScheduler .rsMonthView .rsWrap {
+z-index: 1!important
+}
+
+.RadScheduler_TCAdmin .rsHeader .rsDatePickerActivator,
+.RadScheduler_TCAdmin .rsHeader .rsPrevDay,
+.RadScheduler_TCAdmin .rsHeader .rsNextDay,
+.RadScheduler_TCAdmin .rsAptEditResizeHandle,
+.RadScheduler_TCAdmin .rsTimePick .RadInput_TCAdmin input.riEnabled,
+.RadScheduler_TCAdmin .rsTimePick .RadInput_TCAdmin input.riHover,
+.RadScheduler_TCAdmin .rsTimePick .RadInput_TCAdmin input.riFocused,
+.RadScheduler_TCAdmin .rsModalWrapper .rsModalIcon {
+background-image: url(../../App_Themes/Default/Controls/Rad/Scheduler/rsSprites.png)
+}
+
+.RadScheduler_TCAdmin .rsHeader a.rsToday:hover,
+.RadTreeView_TCAdmin .rtSelected .rtLoadingBefore,
+.RadTreeView_TCAdmin .rtSelected .rtLoadingAfter,
+.RadTreeView_TCAdmin .rtSelected .rtLoadingBelow {
+color: #333
+}
+
+.RadScheduler_TCAdmin .rsSpacerCell,
+.RadScheduler_TCAdmin .rsAllDayHeader,
+.RadScheduler_TCAdmin .rsVerticalHeaderWrapper,
+.RadScheduler_TCAdmin .rsVerticalHeaderTable,
+.RadScheduler_TCAdmin .rsAllDayRow,
+.RadScheduler_TCAdmin .rsAdvancedEdit h2 span {
+background: #EDEDED
+}
+
+.RadSplitter_TCAdmin .rspResizeBar,
+.RadSplitter_TCAdmin .rspSlideContainerResize,
+.RadSplitter_TCAdmin .rspResizeBarHorizontal,
+.RadSplitter_TCAdmin .rspSlideContainerResizeHorizontal,
+
+/* RadSlidingPane tab */
+
+.RadSplitter_TCAdmin .rspPaneTabContainer,
+
+/* RadSlidingPane header */
+
+.RadSplitter_TCAdmin .rspSlideHeader,
+
+/* RadSlidingPane title */
+
+.RadSplitter_TCAdmin .rspSlideTitleContainer,
+.RadToolBar_TCAdmin .rtbMiddle {
+background-color: #F5F5F5
+}
+
+.RadSplitter_TCAdmin .rspResizeBarOver,
+.RadSplitter_TCAdmin .rspSlideContainerResizeOver,
+.RadSplitter_TCAdmin .rspResizeBarOverHorizontal,
+.RadSplitter_TCAdmin .rspSlideContainerResizeOverHorizontal,
+.RadToolBarDropDown_TCAdmin li.rtbChecked {
+background-color: #C6C6C6
+}
+
+.RadTabStripRight_TCAdmin .rtsLink:hover,
+.RadTabStripRight_TCAdmin .rtsUL .rtsLink:hover {
+background-position: 100% -200px
+}
+
+.RadTabStripRight_TCAdmin .rtsSelected,
+.RadTabStripRight_TCAdmin .rtsSelected:hover,
+.RadTabStripRight_TCAdmin .rtsUL .rtsSelected,
+.RadTabStripRight_TCAdmin .rtsUL .rtsSelected:hover {
+background-position: 100% -400px
+}
+
+.RadTabStripBottom_TCAdmin .rtsLink,
+.RadTabStripBottom_TCAdmin .rtsDisabled:hover {
+background-position: 0 -182px
+}
+
+.RadTabStripBottom_TCAdmin .rtsOut,
+.RadTabStripBottom_TCAdmin .rtsDisabled:hover .rtsOut {
+background-position: 100% -182px
+}
+
+.RadWWrapperHeaderLeft,
+.RadWWrapperHeaderRight {
+width: 3px;
+background: #FFF url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWWrapperHeaderCenter.gif) repeat-x;
+height: 25px
+}
+
+.RadWWrapperBodyLeft,
+.RadWWrapperBodyRight {
+width: 3px;
+font-size: 0;
+background: #FFF url(../../App_Themes/Default/Controls/Rad/Window/Skins/Default/CssImg/RadWWrapperBodyLeft.gif) no-repeat bottom
+}
+
+.RadWWrapperBodyLeft:before,
+.RadWWrapperBodyRight:before {
+content: " ";
+display: block;
+width: 3px
+}
+
+@media screen and -webkit-min-device-pixel-ratio0 {
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap,
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap {
+color: #888
+}
+
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbChoiceArrow,
+.RadToolBar_TCAdminPageIcons .rtbDisabled .rtbWrap .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbDisabled .rtbChoiceArrow,
+.RadToolBar_TCAdmin .rtbDisabled .rtbWrap .rtbChoiceArrow {
+background-image: url(../../App_Themes/Default/Controls/Rad/ToolBar/rtbDropArrows.gif)
+}
+
 }
